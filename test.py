@@ -1,71 +1,70 @@
+import csv
+import time
+import random
+import requests
 import yfinance as yf
-from functools import wraps
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
-# --- Helper function to cache stock data ---
-# This part of the logic remains the same.
-_stock_data_cache = {}
+headers_list = [
+    {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'},
+    {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15'},
+    {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'},
+    {'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1'}
+]
 
-def cache_stock_data(func):
-    """Decorator to cache stock data."""
-    @wraps(func)
-    def wrapper(symbol, *args, **kwargs):
-        if symbol in _stock_data_cache:
-            print(f"Returning cached data for {symbol}...")
-            return _stock_data_cache[symbol]
-        else:
-            print(f"Fetching data for {symbol}...")
-            # The session object is no longer passed here
-            result = func(symbol, *args, **kwargs)
-            _stock_data_cache[symbol] = result
-            return result
-    return wrapper
+session = requests.Session()
+retry_strategy = Retry(
+    total=5,
+    backoff_factor=0.7,
+    status_forcelist=[429, 500, 502, 503, 504],
+    allowed_methods=["GET"]
+)
+adapter = HTTPAdapter(max_retries=retry_strategy)
+session.mount("https://", adapter)
+session.mount("http://", adapter)
 
-# --- Main data fetching function ---
-@cache_stock_data
-def get_stock_data(symbol):
-    """
-    Fetches stock data for a given symbol.
-    The session parameter has been removed.
-    """
-    try:
-        # Let yfinance handle its own session management.
-        # Do NOT pass a session object here.
-        ticker = yf.Ticker(symbol)
-        
-        # Attempt to get info, which is a common point of failure
-        info = ticker.info
-        if not info or 'symbol' not in info:
-            print(f"Could not retrieve valid data for {symbol}. It may be delisted or an incorrect ticker.")
-            return None
-        return info
-    except Exception as e:
-        print(f"An error occurred while fetching data for {symbol}: {e}")
-        return None
+def fetch_data(symbol):
+    for attempt in range(5):
+        try:
+            session.headers = random.choice(headers_list)
+            ticker = yf.Ticker(symbol, session=session)
+            info = ticker.info
+            current_price = info.get('currentPrice', "")
+            market_cap = info.get('marketCap', "")
+            industry = info.get('industry', "")
+            sector = info.get('sector', "")
+            return {
+                'currentPrice': current_price,
+                'marketCap': market_cap,
+                'industry': industry if industry else "",
+                'sector': sector if sector else ""
+            }
+        except Exception:
+            time.sleep((1.5 ** attempt) + random.uniform(0.5, 1.0))
+    return None
 
-# --- Main execution block ---
-def main():
-    """Main function to run the script."""
-    # List of stock symbols to fetch
-    symbols = ["MSFT", "AAPL", "GOOGL", "QDT.PA", "BTC-USD"]
+symbols = []
+with open('data.csv', mode='r', encoding='utf-8') as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        symbols.append(row['lookup'])
 
-    # The requests.Session object is no longer needed for yfinance
-    # session = requests.Session() # This line is removed
+results = []
+for symbol in symbols:
+    data = fetch_data(symbol)
+    if data is not None:
+        results.append({
+            'lookup': symbol,
+            'currentPrice': data['currentPrice'],
+            'marketCap': data['marketCap'],
+            'industry': data['industry'],
+            'sector': data['sector']
+        })
+    time.sleep(random.uniform(2.0, 2.5))
 
-    for symbol in symbols:
-        # The session object is no longer passed to the function
-        info = get_stock_data(symbol)
-        
-        if info:
-            short_name = info.get('shortName', 'N/A')
-            market_cap = info.get('marketCap', 'N/A')
-            print(f"--- Data for {symbol} ---")
-            print(f"  Name: {short_name}")
-            print(f"  Market Cap: {market_cap}")
-            print("-" * 25)
-        else:
-            print(f"Could not retrieve information for {symbol}.")
-            print("-" * 25)
-
-if __name__ == "__main__":
-    main()
-
+fieldnames = ['lookup', 'currentPrice', 'marketCap', 'industry', 'sector']
+with open('out.csv', mode='w', encoding='utf-8', newline='') as file:
+    writer = csv.DictWriter(file, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(results)
