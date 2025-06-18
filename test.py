@@ -1,77 +1,76 @@
+import os
 import pandas as pd
-import yfinance as yf
 import time
 import random
+import yfinance as yf
 import requests
-from requests.adapters import HTTPAdapter
-from requests.packages.urllib3.util.retry import Retry
+from pathlib import Path
 
-def get_stock_info(symbol, session):
-    retries = Retry(total=5, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504])
-    adapter = HTTPAdapter(max_retries=retries)
-    session.mount('https://', adapter)
-    session.mount('http://', adapter)
+def get_random_ua():
+    uas = [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+        "Mozilla/5.0 (X11; Linux x86_64) Gecko/20100101 Firefox/115.0",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:115.0) Gecko/20100101 Firefox/115.0",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15",
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edg/115.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    ]
+    return random.choice(uas)
 
-    try:
-        ticker = yf.Ticker(symbol, session=session)
-        info = ticker.info
-        
-        current_price = info.get('currentPrice', '')
-        market_cap = info.get('marketCap', '')
-        industry = info.get('industry', '')
-        sector = info.get('sector', '')
-        
-        return {
-            'lookup': symbol,
-            'currentPrice': current_price,
-            'marketCap': market_cap,
-            'industry': industry,
-            'sector': sector
-        }
-    except Exception:
-        return {
-            'lookup': symbol,
-            'currentPrice': '',
-            'marketCap': '',
-            'industry': '',
-            'sector': ''
-        }
+def fetch_symbol_info(symbol):
+    backoff = 1
+    for _ in range(5):
+        try:
+            ticker = yf.Ticker(symbol)
+            session = requests.Session()
+            session.headers.update({'User-Agent': get_random_ua()})
+            ticker.session = session
+            info = ticker.info
+            return {
+                'currentPrice': info.get('currentPrice') or info.get('regularMarketPrice'),
+                'marketCap': info.get('marketCap'),
+                'industry': info.get('industry'),
+                'sector': info.get('sector')
+            }
+        except Exception:
+            time.sleep(backoff)
+            backoff *= 2
+    return {'currentPrice': None, 'marketCap': None, 'industry': None, 'sector': None}
 
 def main():
-    headers_list = [
-        {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
-        },
-        {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
-        },
-        {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Firefox/109.0',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
-        }
-    ]
-
+    script_dir = Path(__file__).parent
+    data_path = script_dir / 'data.csv'
+    print(f"Reading data from {data_path.resolve()}")
     try:
-        symbols_df = pd.read_csv('data.csv')
-        symbols = symbols_df['lookup'].tolist()
+        df = pd.read_csv(data_path, dtype=str)
     except FileNotFoundError:
-        print("Error: data.csv not found.")
+        print("data.csv not found at", data_path.resolve())
         return
+    if 'lookup' not in df.columns:
+        print("Column 'lookup' not found in data.csv")
+        return
+    symbols = df['lookup'].dropna().unique().tolist()
+    results = {}
+    for symbol in symbols:
+        info = fetch_symbol_info(symbol)
+        results[symbol] = info
+        time.sleep(random.uniform(2, 2.5))
+    output_rows = []
+    for symbol in df['lookup'].tolist():
+        info = results.get(symbol, {})
+        output_rows.append({
+            'lookup': symbol,
+            'currentPrice': info.get('currentPrice') if info.get('currentPrice') is not None else '',
+            'marketCap': info.get('marketCap') if info.get('marketCap') is not None else '',
+            'industry': info.get('industry') or '',
+            'sector': info.get('sector') or ''
+        })
+    out_df = pd.DataFrame(output_rows)
+    output_path = script_dir / 'output.csv'
+    out_df.to_csv(output_path, index=False, encoding='utf-8')
+    print(f"Wrote output to {output_path.resolve()}")
 
-    all_stock_data = []
-    
-    with requests.Session() as session:
-        for symbol in symbols:
-            session.headers.update(random.choice(headers_list))
-            stock_data = get_stock_info(symbol, session)
-            all_stock_data.append(stock_data)
-            time.sleep(random.uniform(2, 2.5))
-
-    output_df = pd.DataFrame(all_stock_data)
-    output_df = output_df[['lookup', 'currentPrice', 'marketCap', 'industry', 'sector']]
-    output_df.to_csv('output.csv', index=False, encoding='utf-8')
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
