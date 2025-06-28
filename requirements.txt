@@ -1,4 +1,2 @@
-yfinance
-pandas
-requests
-urllib3
+yfinance>=0.2.45
+curl-cffi
