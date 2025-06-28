@@ -1,1 +1,4 @@
 yfinance
+pandas
+requests
+urllib3
