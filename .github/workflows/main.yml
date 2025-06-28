@@ -20,7 +20,7 @@ jobs:
       - run: python test.py
 
       - name: Upload CSV outputs
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: yahoo-outputs
           path: |
