@@ -1,53 +1,120 @@
-import csv,random,time,requests,yfinance as yf,pandas as pd
-from itertools import islice
+import csv
+import time
+import random
+import itertools
+import yfinance as yf
+import requests
+from requests.adapters import HTTPAdapter, Retry
 
-ua_list=[
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
-    "Mozilla/5.0 (X11; Linux x86_64)"
+def get_session(user_agents, backoff_factor):
+    session = requests.Session()
+    ua = random.choice(user_agents)
+    session.headers.update({'User-Agent': ua})
+    retries = Retry(
+        total=3,
+        backoff_factor=backoff_factor,
+        status_forcelist=[429, 500, 502, 503, 504]
+    )
+    session.mount('https://', HTTPAdapter(max_retries=retries))
+    return session
+
+USER_AGENTS = [
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)',
+    'Mozilla/5.0 (X11; Linux x86_64)',
 ]
 
-session=requests.Session()
-def batcher(iterable,n):
-    it=iter(iterable)
-    while True:
-        batch=list(islice(it,n))
-        if not batch:break
-        yield batch
+INPUT_FILE = 'data.csv'
+UNCLEAN_FILE = 'unClean.csv'
+CLEAN_FILE = 'yahooClean.csv'
 
-symbols,rows=[],[]
-with open("data.csv",encoding="utf-8") as f:
-    reader=csv.DictReader(f)
-    for r in reader:
-        symbols.append(r["T"])
-        rows.append(r)
+with open(INPUT_FILE, newline='', encoding='utf-8') as csvfile:
+    reader = csv.DictReader(csvfile)
+    rows = list(reader)
 
-initial_delay= random.uniform(2,2.5)
-clean,unclean=[],[]
-for batch in batcher(symbols,50):
-    session.headers={"User-Agent":random.choice(ua_list)}
-    for attempt in range(4):
-        try:
-            tk= yf.Tickers(" ".join(batch))
-            break
-        except Exception:
-            time.sleep(initial_delay*(2**attempt))
-    for sym in batch:
-        d= tk.tickers.get(sym)
-        info=d.info if d else {}
-        out={k:("" if not info.get(k) else info.get(k)) for k in ("currentPrice","bid","ask","targetMeanPrice","numberOfAnalystOpinions","marketCap","industry","sector")}
-        for r in rows:
-            if r["T"]==sym:
-                for col,field in zip(["P","B","A","M","O","C","I","S"],out):
-                    if not r[col]:r[col]= out[field] if isinstance(out[field],str) else ("" if out[field] is None else out[field])
-                rec=[r[c] or "" for c in ["T","P","B","A","M","O","C","I","S"]]
-                if all(r[c] for c in ["P","B","A","M","O","C","I","S"]):
-                    clean.append(rec)
-                else:
-                    unclean.append(rec)
-                break
-    time.sleep(random.uniform(2,2.5))
+clean_rows = []
+unclean_rows = []
 
-hdr=["T","P","B","A","M","O","C","I","S"]
-pd.DataFrame(clean,columns=hdr).to_csv("yahooClean.csv",index=False,encoding="utf-8")
-pd.DataFrame(unclean,columns=hdr).to_csv("unClean.csv",index=False,encoding="utf-8")
+for row in rows:
+    symbol = row['T']
+    session = get_session(USER_AGENTS, backoff_factor=1)
+    ticker = yf.Ticker(symbol, session=session)
+    delay = random.uniform(2, 2.5)
+    time.sleep(delay)
+    info = ticker.info or {}
+
+    current = info.get('currentPrice', '')
+    bid = info.get('bid', '')
+    ask = info.get('ask', '')
+    target = info.get('targetMeanPrice', '')
+    opinions = info.get('numberOfAnalystOpinions', '')
+    mcap = info.get('marketCap', '')
+    industry = info.get('industry', '')
+    sector = info.get('sector', '')
+
+    row['P'] = row['P'] or current
+    row['B'] = row['B'] or bid
+    row['A'] = row['A'] or ask
+    row['M'] = row['M'] or target
+    row['O'] = row['O'] or opinions
+    row['C'] = row['C'] or mcap
+    row['I'] = row['I'] or industry
+    row['S'] = row['S'] or sector
+
+    if all(row[h] != '' for h in ['P', 'B', 'A', 'M', 'O', 'C', 'I', 'S']):
+        clean_rows.append(row)
+    else:
+        unclean_rows.append(row)
+
+with open(CLEAN_FILE, 'w', newline='', encoding='utf-8') as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=['T','P','B','A','M','O','C','I','S'])
+    writer.writeheader()
+    writer.writerows(clean_rows)
+
+with open(UNCLEAN_FILE, 'w', newline='', encoding='utf-8') as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=['T','P','B','A','M','O','C','I','S'])
+    writer.writeheader()
+    writer.writerows(unclean_rows)
+
+requirements.txt
+
+yfinance
+requests
+
+.github/workflows/main.yml
+
+name: Python CI
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Run test script
+      run: |
+        python test.py
+    - name: Upload clean CSV
+      uses: actions/upload-artifact@v4
+      with:
+        name: yahooClean
+        path: yahooClean.csv
+    - name: Upload unclean CSV
+      uses: actions/upload-artifact@v4
+      with:
+        name: unClean
+        path: unClean.csv
+
