@@ -12,14 +12,12 @@ def rotate_user_agent():
     ]
     return {'User-Agent': random.choice(agents)}
 
-def fetch_data(symbol, attempt):
-    delay = 2 + (attempt-1)*2 + random.uniform(0,0.5)
-    time.sleep(delay)
-    headers = rotate_user_agent()
-    session = requests.Session(impersonate="chrome")
-    session.headers.update(headers)
-    ticker = yf.Ticker(symbol, session=session)
+def fetch_data(symbol):
     try:
+        headers = rotate_user_agent()
+        session = requests.Session(impersonate="chrome")
+        session.headers.update(headers)
+        ticker = yf.Ticker(symbol, session=session)
         info = ticker.info
         return {
             'currentPrice': info.get('currentPrice', ''),
@@ -35,6 +33,7 @@ def fetch_data(symbol, attempt):
         return None
 
 def main():
+    last_call_time = 0
     with open('data.csv', 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         rows = list(reader)
@@ -44,23 +43,32 @@ def main():
     fieldnames = ['T', 'P', 'B', 'A', 'M', 'O', 'C', 'I', 'S']
 
     for row in rows:
+        update_needed = any(not row[field] for field in ['P', 'B', 'A', 'M', 'O', 'C', 'I', 'S'])
         data = None
-        for attempt in range(1, 5):
-            data = fetch_data(row['T'], attempt)
-            if data is not None:
-                break
         
-        if data:
-            row['P'] = row['P'] or str(data.get('currentPrice', ''))
-            row['B'] = row['B'] or str(data.get('bid', ''))
-            row['A'] = row['A'] or str(data.get('ask', ''))
-            row['M'] = row['M'] or str(data.get('targetMeanPrice', ''))
-            row['O'] = row['O'] or str(data.get('numberOfAnalystOpinions', ''))
-            row['C'] = row['C'] or str(data.get('marketCap', ''))
-            row['I'] = row['I'] or data.get('industry', '')
-            row['S'] = row['S'] or data.get('sector', '')
+        if update_needed:
+            for attempt in range(1, 5):
+                required_delay = 2 * attempt + random.uniform(0, 0.5)
+                now = time.time()
+                time_to_wait = max(0, last_call_time + required_delay - now)
+                time.sleep(time_to_wait)
+                
+                start_time = time.time()
+                data = fetch_data(row['T'])
+                last_call_time = start_time
+                
+                if data is not None:
+                    if not row['P']: row['P'] = str(data['currentPrice'])
+                    if not row['B']: row['B'] = str(data['bid'])
+                    if not row['A']: row['A'] = str(data['ask'])
+                    if not row['M']: row['M'] = str(data['targetMeanPrice'])
+                    if not row['O']: row['O'] = str(data['numberOfAnalystOpinions'])
+                    if not row['C']: row['C'] = str(data['marketCap'])
+                    if not row['I']: row['I'] = data['industry']
+                    if not row['S']: row['S'] = data['sector']
+                    break
 
-        if any(row[k] == '' for k in ['P', 'B', 'A', 'M', 'O', 'C', 'I', 'S']):
+        if any(not row[field] for field in ['P', 'B', 'A', 'C', 'I', 'S']):
             unclean_rows.append(row)
         else:
             clean_rows.append(row)
