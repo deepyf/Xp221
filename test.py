@@ -1,65 +1,77 @@
 import pandas as pd
 import yfinance as yf
-import time, random
-from requests import Session
-from itertools import cycle
+import time
+import random
+import requests
 
-def get_session():
-    headers_list = [
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
-        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)',
-        'Mozilla/5.0 (X11; Linux x86_64)'
-    ]
-    session = Session()
-    session.headers.update({'User-Agent': random.choice(headers_list)})
-    return session, cycle(headers_list)
+# List of user agents for rotation
+USER_AGENTS = [
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36',
+    'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0',
+    'Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:89.0) Gecko/20100101 Firefox/89.0',
+    'Mozilla/5.0 (Linux; Android 11; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Mobile Safari/537.36',
+]
 
-session, ua_cycle = get_session()
+# Create a session for requests
+session = requests.Session()
 
-def fetch_info(symbol):
+def fetch_info(symbol, session, max_retries=3):
     attempt = 0
-    delays = [ (2,2.5), (4,4.5), (6,6.5), (8,8.5) ]
-    while attempt < len(delays):
+    while attempt < max_retries:
         try:
-            session.headers.update({'User-Agent': next(ua_cycle)})
+            # Rotate user agent for each request
+            user_agent = random.choice(USER_AGENTS)
+            session.headers.update({'User-Agent': user_agent})
+            
             ticker = yf.Ticker(symbol, session=session)
             info = ticker.info
-            return {
-                'currentPrice': info.get('currentPrice', ''),
-                'bid': info.get('bid', ''),
-                'ask': info.get('ask', ''),
-                'targetMeanPrice': info.get('targetMeanPrice', ''),
-                'numberOfAnalystOpinions': info.get('numberOfAnalystOpinions', ''),
-                'marketCap': info.get('marketCap', ''),
-                'industry': info.get('industry', ''),
-                'sector': info.get('sector', '')
-            }
-        except Exception:
-            low, high = delays[attempt]
-            time.sleep(random.uniform(low, high))
+            return info
+        except Exception as e:
             attempt += 1
-    return {}
+            if attempt < max_retries:
+                sleep_time = random.uniform(2 + 2*attempt, 2.5 + 2*attempt)
+                time.sleep(sleep_time)
+            else:
+                print(f"Failed to fetch info for {symbol} after {max_retries} attempts.")
+                return None
 
-def main():
-    df = pd.read_csv('data.csv', dtype=str).fillna('')
-    cache = {}
-    clean_rows, unclean_rows = [], []
-    for _, row in df.iterrows():
-        sym = row['T']
-        if sym not in cache:
-            cache[sym] = fetch_info(sym)
-            time.sleep(random.uniform(2,2.5))
-        info = cache.get(sym, {})
-        out = {k: row[k] or info.get(field, '') for k, field in zip(
-            ['T','P','B','A','M','O','C','I','S'],
-            ['T','currentPrice','bid','ask','targetMeanPrice','numberOfAnalystOpinions','marketCap','industry','sector']
-        )}
-        if '' in [out['P'], out['B'], out['A'], out['M'], out['O'], out['C'], out['I'], out['S']]:
-            unclean_rows.append(out)
-        else:
-            clean_rows.append(out)
-    pd.DataFrame(clean_rows, columns=['T','P','B','A','M','O','C','I','S']).to_csv('yahooClean.csv', index=False, encoding='utf-8')
-    pd.DataFrame(unclean_rows, columns=['T','P','B','A','M','O','C','I','S']).to_csv('unClean.csv', index=False, encoding='utf-8')
+# Load data from CSV
+df = pd.read_csv('data.csv', dtype=str, keep_default_na=False)
+clean_data = []
+unclean_data = []
 
-if __name__ == '__main__':
-    main()
+# Process each row
+for _, row in df.iterrows():
+    symbol = row['T']
+    info = fetch_info(symbol, session)
+    if info is None:
+        fetched = {'currentPrice': '', 'bid': '', 'ask': '', 'targetMeanPrice': '', 'numberOfAnalystOpinions': '', 'marketCap': '', 'industry': '', 'sector': ''}
+    else:
+        fetched = {
+            'currentPrice': str(info.get('currentPrice', '')),
+            'bid': str(info.get('bid', '')),
+            'ask': str(info.get('ask', '')),
+            'targetMeanPrice': str(info.get('targetMeanPrice', '')),
+            'numberOfAnalystOpinions': str(info.get('numberOfAnalystOpinions', '')),
+            'marketCap': str(info.get('marketCap', '')),
+            'industry': info.get('industry', ''),
+            'sector': info.get('sector', ''),
+        }
+    new_row = row.copy()
+    for col, key in zip(['P', 'B', 'A', 'M', 'O', 'C', 'I', 'S'], ['currentPrice', 'bid', 'ask', 'targetMeanPrice', 'numberOfAnalystOpinions', 'marketCap', 'industry', 'sector']):
+        if new_row[col] == '':
+            new_row[col] = fetched[key]
+    if all(new_row[col] != '' for col in ['P', 'B', 'A', 'M', 'O', 'C', 'I', 'S']):
+        clean_data.append(new_row.to_dict())
+    else:
+        unclean_data.append(new_row.to_dict())
+    time.sleep(random.uniform(2, 2.5))
+
+# Save results to CSV files
+clean_df = pd.DataFrame(clean_data, columns=df.columns)
+unclean_df = pd.DataFrame(unclean_data, columns=df.columns)
+clean_df.to_csv('yahooClean.csv', index=False, encoding='utf-8')
+unclean_df.to_csv('unClean.csv', index=False, encoding='utf-8')
