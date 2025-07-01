@@ -43,9 +43,13 @@ def main():
     fieldnames = ['T', 'P', 'B', 'A', 'M', 'O', 'C', 'I', 'S']
 
     for row in rows:
-        update_needed = any(not row[field] for field in ['P', 'B', 'A', 'M', 'O', 'C', 'I', 'S'])
+        update_needed = False
+        if row['P'] == '' or row['M'] == '' or row['O'] == '' or row['C'] == '' or row['I'] == '' or row['S'] == '':
+            update_needed = True
+        if row['B'] not in ['', '0'] and row['A'] not in ['', '0']:
+            update_needed = True
+            
         data = None
-        
         if update_needed:
             for attempt in range(1, 5):
                 required_delay = 2 * attempt + random.uniform(0, 0.5)
@@ -58,17 +62,24 @@ def main():
                 last_call_time = start_time
                 
                 if data is not None:
-                    if not row['P']: row['P'] = str(data['currentPrice'])
-                    if not row['B']: row['B'] = str(data['bid'])
-                    if not row['A']: row['A'] = str(data['ask'])
-                    if not row['M']: row['M'] = str(data['targetMeanPrice'])
-                    if not row['O']: row['O'] = str(data['numberOfAnalystOpinions'])
-                    if not row['C']: row['C'] = str(data['marketCap'])
-                    if not row['I']: row['I'] = data['industry']
-                    if not row['S']: row['S'] = data['sector']
+                    if data['currentPrice'] != '':
+                        row['P'] = str(data['currentPrice'])
+                    if row['B'] not in ['', '0'] and row['A'] not in ['', '0']:
+                        row['B'] = str(data['bid'])
+                        row['A'] = str(data['ask'])
+                    if data['targetMeanPrice'] != '':
+                        row['M'] = str(data['targetMeanPrice'])
+                    if data['numberOfAnalystOpinions'] != '':
+                        row['O'] = str(data['numberOfAnalystOpinions'])
+                    if data['marketCap'] != '':
+                        row['C'] = str(data['marketCap'])
+                    if data['industry'] != '':
+                        row['I'] = data['industry']
+                    if data['sector'] != '':
+                        row['S'] = data['sector']
                     break
 
-        if any(not row[field] for field in ['P', 'B', 'A', 'C', 'I', 'S']):
+        if any(row[field] == '' for field in ['P', 'B', 'A', 'C', 'I', 'S']):
             unclean_rows.append(row)
         else:
             clean_rows.append(row)
@@ -78,7 +89,7 @@ def main():
         writer.writeheader()
         writer.writerows(clean_rows)
     
-    with open('unClean.csv', 'w', newline='', encoding='utf-8') as f:
+    with open('todo.csv', 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(unclean_rows)
