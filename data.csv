@@ -1,663 +1,663 @@
 T,P,B,A,M,O,C,I,S
 KRPZ.L,0.65,,,,,10189335,Agricultural Inputs,Basic Materials
-ALFLO.PA,0.964,,,,,15385054,Agricultural Inputs,Basic Materials
+ALFLO.PA,0.91,,,,,14523236,Agricultural Inputs,Basic Materials
 GRVO.PA,18.0,,,22.4,1,26863740,Agricultural Inputs,Basic Materials
-ALMIB.PA,1.002,,,1.45,2,51715824,Agricultural Inputs,Basic Materials
-BTLS.BR,5.08,,,6.65,2,191103504,Agricultural Inputs,Basic Materials
+ALMIB.PA,1.0,,,1.45,2,51612600,Agricultural Inputs,Basic Materials
+BTLS.BR,4.95,,,6.65,2,186213056,Agricultural Inputs,Basic Materials
 TESB.BR,26.4,,,28.0,3,1587585152,Agricultural Inputs,Basic Materials
-ALHGR.PA,5.28,,,7.75,2,77298672,Building Materials,Basic Materials
-NK.PA,28.72,,,36.6,5,2431587328,Building Materials,Basic Materials
+ALHGR.PA,5.43,,,7.75,2,79494656,Building Materials,Basic Materials
+NK.PA,28.68,,,36.6,5,2428200704,Building Materials,Basic Materials
 VCT.PA,57.9,,,60.0,4,2572995072,Building Materials,Basic Materials
-TITC.BR,37.9,,,56.1,1,2824133888,Building Materials,Basic Materials
+TITC.BR,37.85,,,56.1,1,2820407808,Building Materials,Basic Materials
 RBT.PA,820.0,,,1033.5,6,1682426752,Chemicals,Basic Materials
-SOLB.BR,30.12,,,31.83333,15,3146485760,Chemicals,Basic Materials
-SYENS.BR,70.56,,,82.125,16,7224215040,Chemicals,Basic Materials
+SOLB.BR,30.16,,,31.83333,15,3150664448,Chemicals,Basic Materials
+SYENS.BR,70.04,,,82.125,16,7170975232,Chemicals,Basic Materials
 GCAT.L,0.275,,,,,6828937,Gold,Basic Materials
 OMI.L,8.5,,,,,27666312,Gold,Basic Materials
 WBI.L,0.03,,,,,3696210,Lumber & Wood Production,Basic Materials
 ALCOG.PA,5.0,,,,,16984750,Lumber & Wood Production,Basic Materials
 ALMOU.PA,20.4,,,26.8,1,62022936,Lumber & Wood Production,Basic Materials
-COR.LS,8.08,,,10.58429,7,1074640000,Lumber & Wood Production,Basic Materials
+COR.LS,8.12,,,10.58429,7,1079959936,Lumber & Wood Production,Basic Materials
 CDL.L,0.175,,,,,2192890,Other Industrial Metals & Mining,Basic Materials
-NYR.BR,0.067,,,,,7383467,Other Industrial Metals & Mining,Basic Materials
+NYR.BR,0.0698,,,,,7692029,Other Industrial Metals & Mining,Basic Materials
 TGR.L,6.25,,,,,8666312,Other Industrial Metals & Mining,Basic Materials
-CMET.L,3.0,,,16.5,1,12873571,Other Industrial Metals & Mining,Basic Materials
-AMG.AS,22.3,,,21.38282,5,719600896,Other Industrial Metals & Mining,Basic Materials
+CMET.L,2.89,,,16.5,1,12401540,Other Industrial Metals & Mining,Basic Materials
+AMG.AS,22.14,,,21.397964,5,714437824,Other Industrial Metals & Mining,Basic Materials
 ERA.PA,48.92,,,57.8,5,1401083392,Other Industrial Metals & Mining,Basic Materials
 NTVO.L,0.325,,,,,300306,Other Precious Metals & Mining,Basic Materials
 SEFA.L,0.125,,,,,2908075,Other Precious Metals & Mining,Basic Materials
-ALTR.LS,5.05,,,6.282,5,1035916608,Paper & Paper Products,Basic Materials
-SEM.LS,17.1,,,27.33333,3,1365766784,Paper & Paper Products,Basic Materials
-NVG.LS,3.316,,,4.65,4,2358282752,Paper & Paper Products,Basic Materials
+ALTR.LS,5.07,,,6.282,5,1040019264,Paper & Paper Products,Basic Materials
+SEM.LS,17.38,,,27.33333,3,1388130048,Paper & Paper Products,Basic Materials
+NVG.LS,3.324,,,4.65,4,2363972096,Paper & Paper Products,Basic Materials
 ALVIN.PA,3.46,,,,,11543529,Specialty Chemicals,Basic Materials
 KOM.MC,1.0,,,2.0,1,11959800,Specialty Chemicals,Basic Materials
 ALAFY.PA,2.67,,,5.0,2,70150512,Specialty Chemicals,Basic Materials
-AVTX.AS,15.74,,,46.34,5,136875200,Specialty Chemicals,Basic Materials
-ALCRB.PA,7.24,,,21.66667,3,121698608,Specialty Chemicals,Basic Materials
-LHYFE.PA,3.33,,,5.02,5,159433408,Specialty Chemicals,Basic Materials
-CRBN.AS,18.71,,,23.65,6,1087022848,Specialty Chemicals,Basic Materials
-OCI.AS,7.63,,,8.178869,8,1638229632,Specialty Chemicals,Basic Materials
-AZE.BR,13.88,,,21.17143,14,3379197184,Specialty Chemicals,Basic Materials
-AKE.PA,65.6,,,86.4375,16,4948096512,Specialty Chemicals,Basic Materials
-IMCD.AS,115.6,,,150.57143,14,6829971456,Specialty Chemicals,Basic Materials
-AKZA.AS,60.9,,,69.55556,18,10407810048,Specialty Chemicals,Basic Materials
-DSFIR.AS,90.34,,,122.6,20,23811727360,Specialty Chemicals,Basic Materials
-AI.PA,176.6,,,194.42857,21,101839929344,Specialty Chemicals,Basic Materials
+AVTX.AS,15.684,,,46.34,5,136388224,Specialty Chemicals,Basic Materials
+ALCRB.PA,7.28,,,21.66667,3,122370976,Specialty Chemicals,Basic Materials
+LHYFE.PA,3.35,,,5.02,5,160390960,Specialty Chemicals,Basic Materials
+CRBN.AS,18.62,,,23.65,6,1081794176,Specialty Chemicals,Basic Materials
+OCI.AS,7.65,,,8.184662,8,1642523776,Specialty Chemicals,Basic Materials
+AZE.BR,13.85,,,21.17143,14,3371893504,Specialty Chemicals,Basic Materials
+AKE.PA,65.35,,,86.4375,16,4929239552,Specialty Chemicals,Basic Materials
+IMCD.AS,115.0,,,150.57143,14,6794522112,Specialty Chemicals,Basic Materials
+AKZA.AS,61.34,,,69.55556,18,10483006464,Specialty Chemicals,Basic Materials
+DSFIR.AS,89.96,,,122.6,20,23711567872,Specialty Chemicals,Basic Materials
+AI.PA,175.7,,,194.42857,21,101320916992,Specialty Chemicals,Basic Materials
 RAM.LS,7.26,,,7.0,1,186157296,Steel,Basic Materials
 JCQ.PA,22.25,,,22.2,4,452458208,Steel,Basic Materials
 EVR.L,80.89,,,,,1179934336,Steel,Basic Materials
-APAM.AS,27.92,,,30.34,10,2018317184,Steel,Basic Materials
+APAM.AS,27.6,,,30.34,10,1995184640,Steel,Basic Materials
 VK.PA,16.51,,,20.9375,8,3869267200,Steel,Basic Materials
-MT.AS,27.99,,,29.813816,13,21314945024,Steel,Basic Materials
+MT.AS,27.82,,,29.834932,13,21185486848,Steel,Basic Materials
 ALSRS.PA,0.0028,,,,,1060763,Advertising Agencies,Communication Services
 DNM.L,26.5,,,34.0,1,7957420,Advertising Agencies,Communication Services
 ALBIZ.PA,3.82,,,6.8,3,22113712,Advertising Agencies,Communication Services
-CAU.L,33.0,,,37.5,2,48630780,Advertising Agencies,Communication Services
-HCO.PA,4.06,,,3.675,4,79773312,Advertising Agencies,Communication Services
+CAU.L,32.51,,,37.5,2,47908684,Advertising Agencies,Communication Services
+HCO.PA,4.01,,,3.675,4,78790888,Advertising Agencies,Communication Services
 ALREW.PA,1.7,,,5.6,2,92320880,Advertising Agencies,Communication Services
-DKUPL.PA,28.4,,,32.0,1,112808488,Advertising Agencies,Communication Services
-HAVAS.AS,1.53,,,1.875,8,1513572352,Advertising Agencies,Communication Services
-DEC.PA,15.5,,,19.51538,13,3316504064,Advertising Agencies,Communication Services
-PUB.PA,92.32,,,109.61538,13,22993035264,Advertising Agencies,Communication Services
+DKUPL.PA,28.7,,,32.0,1,114000136,Advertising Agencies,Communication Services
+HAVAS.AS,1.522,,,1.875,8,1505658240,Advertising Agencies,Communication Services
+DEC.PA,15.41,,,19.51538,13,3297246720,Advertising Agencies,Communication Services
+PUB.PA,91.94,,,109.61538,13,22898393088,Advertising Agencies,Communication Services
 AFRN.L,4.3,,,,,4782116,Broadcasting,Communication Services
-IPR.LS,0.1425,,,,,23940000,Broadcasting,Communication Services
+IPR.LS,0.144,,,,,24191998,Broadcasting,Communication Services
 NRG.PA,7.36,,,9.61,3,569555072,Broadcasting,Communication Services
-MMT.PA,13.12,,,14.56667,6,1650535296,Broadcasting,Communication Services
-TFI.PA,8.71,,,10.55,6,1839726208,Broadcasting,Communication Services
-SESG.PA,6.3,,,6.75,6,2550359808,Broadcasting,Communication Services
+MMT.PA,13.1,,,14.56667,6,1648019328,Broadcasting,Communication Services
+TFI.PA,8.69,,,10.55,6,1835501696,Broadcasting,Communication Services
+SESG.PA,6.28,,,6.75,6,2542263552,Broadcasting,Communication Services
 ALDNE.PA,0.94,,,1.53333,3,12262864,Electronic Gaming & Multimedia,Communication Services
-ALATA.PA,0.162,,,,,76504336,Electronic Gaming & Multimedia,Communication Services
-NACON.PA,0.816,,,0.82,5,88212048,Electronic Gaming & Multimedia,Communication Services
-AZRN.AS,1.18,,,,,144188912,Electronic Gaming & Multimedia,Communication Services
-ALPUL.PA,19.42,,,30.3,4,159892240,Electronic Gaming & Multimedia,Communication Services
-UBI.PA,9.244,,,12.93929,14,1215428864,Electronic Gaming & Multimedia,Communication Services
+ALATA.PA,0.164,,,,,77448840,Electronic Gaming & Multimedia,Communication Services
+NACON.PA,0.793,,,0.82,5,85725680,Electronic Gaming & Multimedia,Communication Services
+AZRN.AS,1.215,,,,,148465712,Electronic Gaming & Multimedia,Communication Services
+ALPUL.PA,19.3,,,30.3,4,158904224,Electronic Gaming & Multimedia,Communication Services
+UBI.PA,9.182,,,12.93929,14,1207276928,Electronic Gaming & Multimedia,Communication Services
 OMIP.L,4.0,,,9.6,1,8897840,Entertainment,Communication Services
-XIL.PA,2.5,,,2.95,2,14284550,Entertainment,Communication Services
-ALECP.PA,0.464,,,0.6,1,59039360,Entertainment,Communication Services
+XIL.PA,2.52,,,2.95,2,14398826,Entertainment,Communication Services
+ALECP.PA,0.463,,,0.6,1,58912120,Entertainment,Communication Services
 VANTI.PA,0.148,,,0.1,1,72563512,Entertainment,Communication Services
 DEEZR.PA,1.22,,,1.93333,3,150601680,Entertainment,Communication Services
-AJAX.AS,9.64,,,9.0,1,176733024,Entertainment,Communication Services
+AJAX.AS,9.7,,,9.0,1,177833008,Entertainment,Communication Services
 EFG.PA,1.88,,,1.6,1,307880064,Entertainment,Communication Services
-KIN.BR,35.35,,,48.5,4,945562944,Entertainment,Communication Services
+KIN.BR,35.15,,,48.5,4,940213312,Entertainment,Communication Services
 BLV.PA,17.14,,,17.46667,3,1730094336,Entertainment,Communication Services
-VIV.PA,2.883,,,3.09556,9,2860610560,Entertainment,Communication Services
+VIV.PA,2.877,,,3.09556,9,2854657280,Entertainment,Communication Services
 BNJ.AS,8.5,,,12.275,4,3597429504,Entertainment,Communication Services
-ODET.PA,1490.0,,,,,6294668800,Entertainment,Communication Services
-BOL.PA,5.33,,,6.3,3,14890687488,Entertainment,Communication Services
-UMG.AS,26.95,,,30.45263,19,49310683136,Entertainment,Communication Services
+ODET.PA,1488.0,,,,,6286219776,Entertainment,Communication Services
+BOL.PA,5.315,,,6.3,3,14848781312,Entertainment,Communication Services
+UMG.AS,26.94,,,30.45263,19,49292386304,Entertainment,Communication Services
 MER.VI,1.3,,,,,500813,Internet Content & Information,Communication Services
 SEEN.L,3.5,,,20.0,1,4855374,Internet Content & Information,Communication Services
 NWOR.L,22.9,,,,,61295052,Internet Content & Information,Communication Services
-PRX.AS,46.455,,,57.35706,17,105218719744,Internet Content & Information,Communication Services
+PRX.AS,46.425,,,57.35706,17,105150767104,Internet Content & Information,Communication Services
 XLM.L,6.58,,,,,2479600,Publishing,Communication Services
 ROU.BR,15.5,,,,,192190704,Publishing,Communication Services
 CMM.MC,1.96,,,,,11412061,Telecom Services,Communication Services
 PHR.LS,0.0616,,,,,50624296,Telecom Services,Communication Services
-NOS.LS,3.92,,,4.05833,12,2033754880,Telecom Services,Communication Services
-PROX.BR,8.225,,,8.13077,13,2674802944,Telecom Services,Communication Services
-KPN.AS,4.079,,,4.04952,21,16022474752,Telecom Services,Communication Services
-ORA.PA,13.195,,,14.0,18,35077324800,Telecom Services,Communication Services
-VAN.BR,33.1,,,35.75,2,415017696,Apparel Manufacturing,Consumer Cyclical
-SMCP.PA,4.43,,,5.08,5,356722208,Apparel Retail,Consumer Cyclical
+NOS.LS,3.915,,,4.05833,12,2031160704,Telecom Services,Communication Services
+PROX.BR,8.23,,,8.13077,13,2676428800,Telecom Services,Communication Services
+KPN.AS,4.073,,,4.04952,21,15998906368,Telecom Services,Communication Services
+ORA.PA,13.17,,,14.0,18,35010867200,Telecom Services,Communication Services
+VAN.BR,33.3,,,35.75,2,417525376,Apparel Manufacturing,Consumer Cyclical
+SMCP.PA,4.41,,,5.08,5,355111712,Apparel Retail,Consumer Cyclical
 MLAA.PA,0.6,,,,,3960000,Auto & Truck Dealerships,Consumer Cyclical
-ARAMI.PA,7.7,,,11.08,5,633435840,Auto & Truck Dealerships,Consumer Cyclical
-DIE.BR,186.2,,,214.85715,7,9882937344,Auto & Truck Dealerships,Consumer Cyclical
-ALHPI.PA,0.0002,,,,,925570,Auto Manufacturers,Consumer Cyclical
-EBUS.AS,0.523,,,,,34305192,Auto Manufacturers,Consumer Cyclical
+ARAMI.PA,7.74,,,11.08,5,636726464,Auto & Truck Dealerships,Consumer Cyclical
+DIE.BR,185.0,,,214.85715,7,9819244544,Auto & Truck Dealerships,Consumer Cyclical
+ALHPI.PA,0.0003,,,,,1388355,Auto Manufacturers,Consumer Cyclical
+EBUS.AS,0.5205,,,,,34141208,Auto Manufacturers,Consumer Cyclical
 QEV.AS,6.9,,,,,157500096,Auto Manufacturers,Consumer Cyclical
-RNO.PA,41.55,,,57.21111,18,11983060992,Auto Manufacturers,Consumer Cyclical
-STLAP.PA,8.837,,,,,25527795712,Auto Manufacturers,Consumer Cyclical
-FORSE.PA,0.389,,,0.6,2,45486160,Auto Parts,Consumer Cyclical
-ALDEL.PA,23.0,,,29.0,2,60450672,Auto Parts,Consumer Cyclical
-ALATI.PA,3.46,,,3.4,2,69477144,Auto Parts,Consumer Cyclical
-AKW.PA,8.42,,,10.1,4,223502160,Auto Parts,Consumer Cyclical
+RNO.PA,41.3,,,57.21111,18,11910961152,Auto Manufacturers,Consumer Cyclical
+STLAP.PA,8.834,,,,,25519128576,Auto Manufacturers,Consumer Cyclical
+FORSE.PA,0.386,,,0.6,2,45135368,Auto Parts,Consumer Cyclical
+ALDEL.PA,23.5,,,29.0,2,61764816,Auto Parts,Consumer Cyclical
+ALATI.PA,3.41,,,3.4,2,68473144,Auto Parts,Consumer Cyclical
+AKW.PA,8.4,,,10.1,4,222971264,Auto Parts,Consumer Cyclical
 BUR.PA,360.0,,,,,631043968,Auto Parts,Consumer Cyclical
-OPM.PA,11.48,,,11.35,10,1639538944,Auto Parts,Consumer Cyclical
-FRVIA.PA,9.566,,,10.95,12,1767088896,Auto Parts,Consumer Cyclical
-FR.PA,9.774,,,11.33077,13,2387035648,Auto Parts,Consumer Cyclical
-ALDLT.PA,48.1,,,72.925,4,347999648,Footwear & Accessories,Consumer Cyclical
+OPM.PA,11.45,,,11.35,10,1635254528,Auto Parts,Consumer Cyclical
+FRVIA.PA,9.586,,,10.95,12,1770783488,Auto Parts,Consumer Cyclical
+FR.PA,9.732,,,11.33077,13,2376778496,Auto Parts,Consumer Cyclical
+ALDLT.PA,48.0,,,72.925,4,347276160,Footwear & Accessories,Consumer Cyclical
 ALMLB.PA,1.19,,,2.2,1,8460555,"Furnishings, Fixtures & Appliances",Consumer Cyclical
-ALAIR.PA,1.435,,,3.48,1,8946163,"Furnishings, Fixtures & Appliances",Consumer Cyclical
+ALAIR.PA,1.41,,,3.48,1,8790306,"Furnishings, Fixtures & Appliances",Consumer Cyclical
 LIKE.L,23.41,,,,,57160196,"Furnishings, Fixtures & Appliances",Consumer Cyclical
 VAF.LS,1.03,,,1.405,1,172679488,"Furnishings, Fixtures & Appliances",Consumer Cyclical
-RBO.PA,37.8,,,45.25,4,383560384,"Furnishings, Fixtures & Appliances",Consumer Cyclical
-SK.PA,82.85,,,119.0,11,4539003392,"Furnishings, Fixtures & Appliances",Consumer Cyclical
-FDJU.PA,33.82,,,38.16667,9,6249394688,Gambling,Consumer Cyclical
+RBO.PA,38.0,,,45.25,4,385589792,"Furnishings, Fixtures & Appliances",Consumer Cyclical
+SK.PA,83.0,,,119.0,11,4547221504,"Furnishings, Fixtures & Appliances",Consumer Cyclical
+FDJU.PA,33.8,,,38.16667,9,6245699072,Gambling,Consumer Cyclical
 ALCAF.PA,8.5,,,,,78804776,Home Improvement Retail,Consumer Cyclical
-MDM.PA,2.3,,,3.01429,7,88721576,Home Improvement Retail,Consumer Cyclical
+MDM.PA,2.31,,,3.01429,7,89107320,Home Improvement Retail,Consumer Cyclical
 ALSPT.PA,0.356,,,0.8,2,6503835,Internet Retail,Consumer Cyclical
 ALVAP.PA,4.86,,,8.3,1,14913008,Internet Retail,Consumer Cyclical
 SRP.PA,0.465,,,0.7,2,54120884,Internet Retail,Consumer Cyclical
-TKWY.AS,19.435,,,20.54211,19,3847138560,Internet Retail,Consumer Cyclical
+TKWY.AS,19.425,,,20.54211,19,3845158912,Internet Retail,Consumer Cyclical
 PIER.L,11.5,,,75.0,1,4287924,Leisure,Consumer Cyclical
-CCT.L,280.0,,,506.0,1,50570520,Leisure,Consumer Cyclical
+CCT.L,270.7,,,506.0,1,48890860,Leisure,Consumer Cyclical
 MLIFS.PA,7.0,,,,,60879768,Leisure,Consumer Cyclical
 ALPDX.PA,14.6,,,,,131031792,Leisure,Consumer Cyclical
 CDA.PA,20.6,,,21.98571,7,1047128896,Leisure,Consumer Cyclical
-BFIT.AS,25.0,,,25.35,8,1650000000,Leisure,Consumer Cyclical
+BFIT.AS,24.9,,,25.35,8,1643399936,Leisure,Consumer Cyclical
 ALLHB.PA,73.5,,,,,174376544,Lodging,Consumer Cyclical
-VAC.PA,1.72,,,2.125,4,800854336,Lodging,Consumer Cyclical
-AC.PA,46.02,,,54.10312,16,11033571328,Lodging,Consumer Cyclical
-KER.PA,199.98,,,188.04546,22,24516947968,Luxury Goods,Consumer Cyclical
-CDI.PA,460.8,,,,,83133390848,Luxury Goods,Consumer Cyclical
-MC.PA,486.2,,,573.884,25,241768300544,Luxury Goods,Consumer Cyclical
-RMS.PA,2308.0,,,2566.1428,21,241959174144,Luxury Goods,Consumer Cyclical
+VAC.PA,1.736,,,2.125,4,808304128,Lodging,Consumer Cyclical
+AC.PA,46.06,,,54.10312,16,11043162112,Lodging,Consumer Cyclical
+KER.PA,201.1,,,188.04546,22,24654258176,Luxury Goods,Consumer Cyclical
+CDI.PA,463.0,,,,,83530293248,Luxury Goods,Consumer Cyclical
+MC.PA,488.35,,,573.884,25,242837405696,Luxury Goods,Consumer Cyclical
+RMS.PA,2302.0,,,2566.1428,21,241330176000,Luxury Goods,Consumer Cyclical
 CABKA.AS,1.995,,,4.13333,3,49297648,Packaging & Containers,Consumer Cyclical
-TFF.PA,23.8,,,29.18333,6,515983968,Packaging & Containers,Consumer Cyclical
+TFF.PA,24.0,,,29.18333,6,520320000,Packaging & Containers,Consumer Cyclical
 ALGIL.PA,28.55,,,30.94,5,527818112,Packaging & Containers,Consumer Cyclical
 VRLA.PA,28.2,,,31.97545,11,3322975232,Packaging & Containers,Consumer Cyclical
-ALLPL.PA,0.179,,,0.4,1,2159975,Personal Services,Consumer Cyclical
-ALFPC.PA,105.4,,,166.5,2,175693376,Recreational Vehicles,Consumer Cyclical
-BEN.PA,8.18,,,10.85,6,658558720,Recreational Vehicles,Consumer Cyclical
-TRI.PA,149.2,,,171.05556,9,2879440640,Recreational Vehicles,Consumer Cyclical
+ALLPL.PA,0.198,,,0.4,1,2389246,Personal Services,Consumer Cyclical
+ALFPC.PA,105.2,,,166.5,2,175359984,Recreational Vehicles,Consumer Cyclical
+BEN.PA,8.155,,,10.85,6,656545984,Recreational Vehicles,Consumer Cyclical
+TRI.PA,149.5,,,171.05556,9,2885230336,Recreational Vehicles,Consumer Cyclical
 ALHEX.PA,30.6,,,35.75,4,209700272,Residential Construction,Consumer Cyclical
-KOF.PA,33.6,,,37.74286,7,654460800,Residential Construction,Consumer Cyclical
+KOF.PA,33.4,,,37.74286,7,650565248,Residential Construction,Consumer Cyclical
 BAL.VI,0.95,,,,,,Residential Construction,Consumer Cyclical
 BAIN.PA,101.5,,,,,2488444928,Resorts & Casinos,Consumer Cyclical
 COM.L,3.75,,,,,4600012,Restaurants,Consumer Cyclical
-IBS.LS,9.78,,,13.1,3,400327648,Restaurants,Consumer Cyclical
-ELIOR.PA,2.65,,,3.35,10,671488832,Restaurants,Consumer Cyclical
+IBS.LS,9.76,,,13.1,3,399509024,Restaurants,Consumer Cyclical
+ELIOR.PA,2.638,,,3.35,10,668448128,Restaurants,Consumer Cyclical
 ALHRS.PA,3.645,,,5.325,4,56863092,Specialty Retail,Consumer Cyclical
 TRACT.PA,0.972,,,,,71243904,Specialty Retail,Consumer Cyclical
 SMAR.BR,28.2,,,28.5,1,98075088,Specialty Retail,Consumer Cyclical
 FAST.AS,22.1,,,27.5,8,427279200,Specialty Retail,Consumer Cyclical
-FNAC.PA,34.8,,,35.85714,7,1002452288,Specialty Retail,Consumer Cyclical
-MMB.PA,21.55,,,28.33333,3,3052837632,Specialty Retail,Consumer Cyclical
+FNAC.PA,34.75,,,35.85714,7,1001011968,Specialty Retail,Consumer Cyclical
+MMB.PA,21.5,,,28.33333,3,3045754624,Specialty Retail,Consumer Cyclical
 BELYS.BR,0.7,,,1.6,1,25160380,Textile Manufacturing,Consumer Cyclical
 LTH.VI,280.0,,,,,84000000,Textile Manufacturing,Consumer Cyclical
-ALVDM.PA,169.0,,,187.0,3,754892608,Travel Services,Consumer Cyclical
+ALVDM.PA,170.0,,,187.0,3,759359424,Travel Services,Consumer Cyclical
 COBH.BR,1750.0,,,,,131250000,Beverages - Brewers,Consumer Defensive
-HEIO.AS,65.25,,,113.0,1,18375315456,Beverages - Brewers,Consumer Defensive
-HEIA.AS,76.88,,,90.67364,22,43254226944,Beverages - Brewers,Consumer Defensive
-ABI.BR,58.9,,,68.59671,24,114770190336,Beverages - Brewers,Consumer Defensive
-CCEP.AS,80.2,,,83.83846,13,36883578880,Beverages - Non-Alcoholic,Consumer Defensive
-VRAP.PA,12.7,,,13.75,2,112826416,Beverages - Wineries & Distilleries,Consumer Defensive
-MBWS.PA,3.16,,,3.3,1,353446016,Beverages - Wineries & Distilleries,Consumer Defensive
+HEIO.AS,65.2,,,113.0,1,18361233408,Beverages - Brewers,Consumer Defensive
+HEIA.AS,76.92,,,90.67364,22,43276730368,Beverages - Brewers,Consumer Defensive
+ABI.BR,58.72,,,68.62909,24,114419441664,Beverages - Brewers,Consumer Defensive
+CCEP.AS,80.1,,,83.83846,13,36837588992,Beverages - Non-Alcoholic,Consumer Defensive
+VRAP.PA,12.8,,,13.75,2,113714816,Beverages - Wineries & Distilleries,Consumer Defensive
+MBWS.PA,3.11,,,3.3,1,347853504,Beverages - Wineries & Distilleries,Consumer Defensive
 LPE.PA,95.6,,,114.33333,3,560345024,Beverages - Wineries & Distilleries,Consumer Defensive
 SBT.PA,9.3,,,10.73333,3,595763584,Beverages - Wineries & Distilleries,Consumer Defensive
-RCO.PA,48.12,,,56.50526,19,2496744704,Beverages - Wineries & Distilleries,Consumer Defensive
-RI.PA,90.8,,,111.80952,21,22850275328,Beverages - Wineries & Distilleries,Consumer Defensive
-NEWT.BR,2.12,,,,,19023332,Confectioners,Consumer Defensive
+RCO.PA,48.34,,,56.50526,19,2508159488,Beverages - Wineries & Distilleries,Consumer Defensive
+RI.PA,90.76,,,111.80952,21,22840209408,Beverages - Wineries & Distilleries,Consumer Defensive
+NEWT.BR,2.14,,,,,19202798,Confectioners,Consumer Defensive
 FLSP.BR,21.0,,,,,45256048,Education & Training Services,Consumer Defensive
-ALKKO.PA,0.138,,,,,22483374,Farm Products,Consumer Defensive
-SIP.BR,62.4,,,72.60829,2,652104960,Farm Products,Consumer Defensive
-MHPC.IL,5.2,5.12,5.26,,,,Farm Products,Consumer Defensive
+ALKKO.PA,0.1375,,,,,22401914,Farm Products,Consumer Defensive
+SIP.BR,63.0,,,72.633995,2,658375168,Farm Products,Consumer Defensive
+MHPC.IL,5.12,5.12,5.26,,,,Farm Products,Consumer Defensive
 ALODC.PA,5.92,,,7.7,2,50267788,Food Distribution,Consumer Defensive
 GREEN.BR,7.28,,,6.86,3,359208320,Food Distribution,Consumer Defensive
-SLIGR.AS,14.4,,,15.66667,3,638746560,Food Distribution,Consumer Defensive
-ACOMO.AS,23.15,,,26.0,1,688619904,Food Distribution,Consumer Defensive
-JMT.LS,23.0,,,23.95,21,14519279616,Food Distribution,Consumer Defensive
-CO.PA,0.4698,,,0.16,3,188203296,Grocery Stores,Consumer Defensive
+SLIGR.AS,14.42,,,15.66667,3,639633728,Food Distribution,Consumer Defensive
+ACOMO.AS,23.1,,,26.0,1,687132608,Food Distribution,Consumer Defensive
+JMT.LS,23.08,,,23.95,21,14569781248,Food Distribution,Consumer Defensive
+CO.PA,0.4656,,,0.16,3,186520768,Grocery Stores,Consumer Defensive
 SON.LS,1.272,,,1.4,6,2465555712,Grocery Stores,Consumer Defensive
-COLR.BR,37.42,,,41.7375,8,4528643072,Grocery Stores,Consumer Defensive
-CA.PA,12.465,,,14.14667,15,8803207168,Grocery Stores,Consumer Defensive
+COLR.BR,37.46,,,41.7375,8,4533484032,Grocery Stores,Consumer Defensive
+CA.PA,12.45,,,14.14667,15,8792612864,Grocery Stores,Consumer Defensive
 AD.AS,35.49,,,36.265,16,32574214144,Grocery Stores,Consumer Defensive
 REAL.BR,14.8,,,,,9525473,Household & Personal Products,Consumer Defensive
-CRL.L,38.5,,,,,27237286,Household & Personal Products,Consumer Defensive
-ONTEX.BR,6.93,,,10.08,5,553348032,Household & Personal Products,Consumer Defensive
-BB.PA,54.2,,,64.5,6,2234340864,Household & Personal Products,Consumer Defensive
-ITP.PA,34.72,,,40.19232,9,2900036608,Household & Personal Products,Consumer Defensive
-UNA.AS,52.22,,,63.00625,8,128591757312,Household & Personal Products,Consumer Defensive
-OR.PA,371.9,,,380.33334,24,198367363072,Household & Personal Products,Consumer Defensive
-ALRPD.PA,0.0076,,,0.49018314,1,3898260,Packaged Foods,Consumer Defensive
+CRL.L,37.25,,,,,26352960,Household & Personal Products,Consumer Defensive
+ONTEX.BR,6.92,,,10.08,5,552549568,Household & Personal Products,Consumer Defensive
+BB.PA,54.0,,,64.5,6,2226096128,Household & Personal Products,Consumer Defensive
+ITP.PA,34.6,,,40.19232,9,2890013440,Household & Personal Products,Consumer Defensive
+UNA.AS,52.04,,,63.00625,8,128148504576,Household & Personal Products,Consumer Defensive
+OR.PA,371.7,,,380.33334,24,198260686848,Household & Personal Products,Consumer Defensive
+ALRPD.PA,0.0074,,,0.49007767,1,3795674,Packaged Foods,Consumer Defensive
 ZAM.L,4.0,,,,,12023200,Packaged Foods,Consumer Defensive
-MIKO.BR,52.0,,,60.0,1,64584000,Packaged Foods,Consumer Defensive
+MIKO.BR,52.2,,,60.0,1,64832400,Packaged Foods,Consumer Defensive
 WHATS.BR,104.0,,,137.5,2,197706080,Packaged Foods,Consumer Defensive
-BON.PA,8.79,,,8.94,5,282005184,Packaged Foods,Consumer Defensive
-FFARM.AS,4.06,,,5.15,2,358842272,Packaged Foods,Consumer Defensive
-SAVE.PA,64.2,,,63.55,2,836461760,Packaged Foods,Consumer Defensive
-LOUP.PA,91.9,,,95.68,5,3181706752,Packaged Foods,Consumer Defensive
+BON.PA,8.76,,,8.94,5,281042720,Packaged Foods,Consumer Defensive
+FFARM.AS,4.05,,,5.15,2,357958464,Packaged Foods,Consumer Defensive
+SAVE.PA,63.6,,,63.55,2,828644352,Packaged Foods,Consumer Defensive
+LOUP.PA,92.4,,,95.68,5,3199017472,Packaged Foods,Consumer Defensive
 LOTB.BR,8130.0,,,10094.286,7,6653307392,Packaged Foods,Consumer Defensive
-JDEP.AS,24.56,,,23.37933,15,11935938560,Packaged Foods,Consumer Defensive
-BN.PA,69.3,,,73.75455,22,45081456640,Packaged Foods,Consumer Defensive
+JDEP.AS,24.5,,,23.37933,15,11906780160,Packaged Foods,Consumer Defensive
+BN.PA,69.1,,,73.75455,22,44951347200,Packaged Foods,Consumer Defensive
 BCE.L,0.0039,,,,,721956,Oil & Gas E&P,Energy
 UKOG.L,0.0102,,,,,1675268,Oil & Gas E&P,Energy
-DELT.L,6.7,,,24.5,2,6653301,Oil & Gas E&P,Energy
+DELT.L,6.62,,,24.5,2,6573858,Oil & Gas E&P,Energy
 PPP.L,9.55,,,,,10151555,Oil & Gas E&P,Energy
 ANGS.L,0.24,,,,,10612463,Oil & Gas E&P,Energy
-MATD.L,1.288,,,19.0,1,19112374,Oil & Gas E&P,Energy
+MATD.L,1.26,,,19.0,1,18696888,Oil & Gas E&P,Energy
 SAVE.L,7.2,,,42.833,3,116403120,Oil & Gas E&P,Energy
-FDE.PA,36.25,,,45.66667,3,196802704,Oil & Gas E&P,Energy
+FDE.PA,36.15,,,45.66667,3,196259808,Oil & Gas E&P,Energy
 EC.PA,188.0,,,,,846000000,Oil & Gas E&P,Energy
-MAU.PA,5.07,,,6.0,3,1008488896,Oil & Gas E&P,Energy
+MAU.PA,5.11,,,6.0,3,1016445440,Oil & Gas E&P,Energy
 NTQ.L,0.4875,,,,,508681,Oil & Gas Equipment & Services,Energy
-CSC.L,36.0,,,50.0,1,13920192,Oil & Gas Equipment & Services,Energy
-VIRI.PA,63.25,,,83.26009,4,454147648,Oil & Gas Equipment & Services,Energy
-EXM.BR,11.78,,,,,677868288,Oil & Gas Equipment & Services,Energy
-FUR.AS,12.09,,,14.91667,6,1335836160,Oil & Gas Equipment & Services,Energy
-SBMO.AS,22.92,,,25.441317,6,3922368256,Oil & Gas Equipment & Services,Energy
-GTT.PA,163.6,,,174.33333,6,6058157056,Oil & Gas Equipment & Services,Energy
-TE.PA,35.86,,,33.85,12,6335852544,Oil & Gas Equipment & Services,Energy
-WG.L,18.44,,,56.252365,3,126772432,Oil & Gas Integrated,Energy
-GALP.LS,16.14,,,18.7875,20,11888577536,Oil & Gas Integrated,Energy
-TTE.PA,53.45,,,62.62045,22,117818236928,Oil & Gas Integrated,Energy
-SHELL.AS,30.59,,,32.629894,6,179864616960,Oil & Gas Integrated,Energy
+CSC.L,35.24,,,50.0,1,13626322,Oil & Gas Equipment & Services,Energy
+VIRI.PA,63.45,,,83.289566,4,455583680,Oil & Gas Equipment & Services,Energy
+EXM.BR,11.72,,,,,674415680,Oil & Gas Equipment & Services,Energy
+FUR.AS,11.99,,,14.91667,6,1324787072,Oil & Gas Equipment & Services,Energy
+SBMO.AS,22.94,,,25.444319,6,3925790976,Oil & Gas Equipment & Services,Energy
+GTT.PA,164.0,,,174.33333,6,6072969216,Oil & Gas Equipment & Services,Energy
+TE.PA,35.92,,,33.85,12,6346453504,Oil & Gas Equipment & Services,Energy
+WG.L,18.44,,,56.285404,3,126772432,Oil & Gas Integrated,Energy
+GALP.LS,16.12,,,18.7875,20,11873847296,Oil & Gas Integrated,Energy
+TTE.PA,53.35,,,62.62784,22,117597806592,Oil & Gas Integrated,Energy
+SHELL.AS,30.61,,,32.622566,6,179982204928,Oil & Gas Integrated,Energy
 FLUX.BR,20.2,,,,,1419322880,Oil & Gas Midstream,Energy
-CMBT.BR,8.08,,,12.940564,2,1569273344,Oil & Gas Midstream,Energy
-VPK.AS,41.7,,,51.375,4,4892994560,Oil & Gas Midstream,Energy
-NWF.L,169.05,,,266.5,2,84075328,Oil & Gas Refining & Marketing,Energy
-ES.PA,155.0,,,,,1992462976,Oil & Gas Refining & Marketing,Energy
-RUI.PA,28.08,,,34.8875,8,2890723584,Oil & Gas Refining & Marketing,Energy
-RIGD.IL,71.3,71.1,71.2,77.83,4,,Oil & Gas Refining & Marketing,Energy
+CMBT.BR,8.11,,,12.942091,2,1575099776,Oil & Gas Midstream,Energy
+VPK.AS,41.72,,,51.375,4,4895341568,Oil & Gas Midstream,Energy
+NWF.L,171.0,,,266.5,2,85045144,Oil & Gas Refining & Marketing,Energy
+ES.PA,155.8,,,,,2002746752,Oil & Gas Refining & Marketing,Energy
+RUI.PA,28.04,,,34.8875,8,2886605824,Oil & Gas Refining & Marketing,Energy
+RIGD.IL,70.7,70.7,70.9,77.83,4,,Oil & Gas Refining & Marketing,Energy
 GCG.L,3.05,,,,,839512,Asset Management,Financial Services
 ALAVE.PA,0.0008,,,,,983823,Asset Management,Financial Services
 PCH.L,2.0,,,,,1584286,Asset Management,Financial Services
 CAND.BR,1.65,,,,,1775994,Asset Management,Financial Services
 MOPF.BR,7750.0,,,,,15755750,Asset Management,Financial Services
-ALAUD.PA,3.64,,,,,18214742,Asset Management,Financial Services
+ALAUD.PA,3.56,,,,,17814418,Asset Management,Financial Services
 ALHGO.PA,43.2,,,,,27147226,Asset Management,Financial Services
 ALMEX.PA,6.5,,,,,37003784,Asset Management,Financial Services
 MOP.BR,256.0,,,,,39481600,Asset Management,Financial Services
 QFG.BR,4.223,,,5.55,2,79111568,Asset Management,Financial Services
 GHV2.L,49.73,,,,,165641168,Asset Management,Financial Services
 GHV1.L,61.61,,,,,199737776,Asset Management,Financial Services
-ALCBI.PA,1.085,,,,,292165536,Asset Management,Financial Services
+ALCBI.PA,1.065,,,,,286780000,Asset Management,Financial Services
 ABCA.PA,6.3,,,7.1,1,373608288,Asset Management,Financial Services
 COMB.BR,268.0,,,318.0,2,430442848,Asset Management,Financial Services
 TINC.BR,10.32,,,13.0,1,503301216,Asset Management,Financial Services
 BBGI.L,141.8,,,135.0,1,1013695616,Asset Management,Financial Services
-GIMB.BR,41.65,,,49.3,3,1514381568,Asset Management,Financial Services
-PEUG.PA,76.2,,,112.0,3,1890590464,Asset Management,Financial Services
-ANTIN.PA,11.96,,,13.1,9,2136964992,Asset Management,Financial Services
-TKO.PA,19.36,,,24.68,10,3340103424,Asset Management,Financial Services
-BREB.BR,115.4,,,130.0,2,3404992512,Asset Management,Financial Services
-MF.PA,91.0,,,120.83333,6,3863268608,Asset Management,Financial Services
-ALLFG.AS,6.88,,,7.6,15,4198018048,Asset Management,Financial Services
-RF.PA,61.1,,,87.33333,6,4262690304,Asset Management,Financial Services
-KBCA.BR,59.4,,,60.0,1,4574500864,Asset Management,Financial Services
-CBDG.PA,101.0,,,,,6131598848,Asset Management,Financial Services
-SOF.BR,262.6,,,304.66666,3,8868186112,Asset Management,Financial Services
-GBLB.BR,73.25,,,86.63333,6,9014804480,Asset Management,Financial Services
-HAL.AS,123.0,,,144.66667,3,11110135808,Asset Management,Financial Services
-AMUN.PA,68.85,,,77.78,15,14008083456,Asset Management,Financial Services
+GIMB.BR,41.6,,,49.3,3,1512563456,Asset Management,Financial Services
+PEUG.PA,76.4,,,112.0,3,1895552768,Asset Management,Financial Services
+ANTIN.PA,12.06,,,13.1,9,2154832640,Asset Management,Financial Services
+TKO.PA,19.44,,,24.68,10,3353905408,Asset Management,Financial Services
+BREB.BR,116.4,,,130.0,2,3434498560,Asset Management,Financial Services
+MF.PA,91.1,,,120.83333,6,3867513856,Asset Management,Financial Services
+ALLFG.AS,6.83,,,7.6,15,4167508992,Asset Management,Financial Services
+RF.PA,61.25,,,87.33333,6,4273155328,Asset Management,Financial Services
+KBCA.BR,59.6,,,60.0,1,4589903360,Asset Management,Financial Services
+CBDG.PA,97.0,,,,,5888763392,Asset Management,Financial Services
+SOF.BR,261.6,,,304.66666,3,8834415616,Asset Management,Financial Services
+GBLB.BR,73.05,,,86.63333,6,8990190592,Asset Management,Financial Services
+HAL.AS,123.2,,,144.66667,3,11128200192,Asset Management,Financial Services
+AMUN.PA,68.75,,,77.78,15,13987737600,Asset Management,Financial Services
 CVC.AS,17.63,,,19.975,12,18740336640,Asset Management,Financial Services
-ABN.AS,23.79,,,22.4,15,19818237952,Banks - Diversified,Financial Services
-INGA.AS,18.944,,,20.00667,18,56332824576,Banks - Diversified,Financial Services
-BNB.BR,380.0,,,,,154375008,Banks - Regional,Financial Services
+ABN.AS,23.88,,,22.4,15,19893209088,Banks - Diversified,Financial Services
+INGA.AS,18.95,,,20.00667,18,56350666752,Banks - Diversified,Financial Services
+BNB.BR,378.0,,,,,153562496,Banks - Regional,Financial Services
 CRSU.PA,152.52,,,,,688946560,Banks - Regional,Financial Services
-CNDF.PA,17.69,,,,,1040755776,Banks - Regional,Financial Services
-CAF.PA,73.01,,,,,2017390464,Banks - Regional,Financial Services
-VLK.AS,54.5,,,50.75,2,2309557504,Banks - Regional,Financial Services
-BCP.LS,0.6584,,,0.7,13,9814439936,Banks - Regional,Financial Services
-KBC.BR,87.2,,,91.45,16,34580291584,Banks - Regional,Financial Services
-GLE.PA,48.4,,,51.92167,18,37580906496,Banks - Regional,Financial Services
-ACA.PA,16.14,,,17.97,17,48822853632,Banks - Regional,Financial Services
-BNP.PA,76.58,,,90.04941,17,86542295040,Banks - Regional,Financial Services
+CNDF.PA,17.686,,,,,1040520512,Banks - Regional,Financial Services
+CAF.PA,73.2,,,,,2022640384,Banks - Regional,Financial Services
+VLK.AS,54.3,,,50.75,2,2301081856,Banks - Regional,Financial Services
+BCP.LS,0.6602,,,0.7,13,9841271808,Banks - Regional,Financial Services
+KBC.BR,87.42,,,91.45,16,34667536384,Banks - Regional,Financial Services
+GLE.PA,48.33,,,51.92167,18,37526556672,Banks - Regional,Financial Services
+ACA.PA,16.09,,,17.97,17,48671608832,Banks - Regional,Financial Services
+BNP.PA,76.34,,,90.04941,17,86271066112,Banks - Regional,Financial Services
 NLB.IL,30.0,29.9,30.0,22.5,2,,Banks - Regional,Financial Services
 VIL.PA,14.75,,,,,941496896,Capital Markets,Financial Services
-FLOW.AS,28.12,,,29.05,4,1211094656,Capital Markets,Financial Services
+FLOW.AS,28.04,,,29.05,4,1207649152,Capital Markets,Financial Services
 ZAIM.L,4.5,,,,,2310637,Credit Services,Financial Services
-DFCH.L,39.94,,,85.0,1,65670944,Credit Services,Financial Services
-EDEN.PA,27.35,,,42.96875,16,6535583232,Credit Services,Financial Services
+DFCH.L,39.5,,,85.0,1,64947480,Credit Services,Financial Services
+EDEN.PA,27.34,,,42.96875,16,6533193728,Credit Services,Financial Services
 GACA.L,110.0,,,,,30800001024,Credit Services,Financial Services
 AQX.L,725.0,,,,,158773552,Financial Data & Stock Exchanges,Financial Services
-ENX.PA,144.5,,,146.11765,17,15024821248,Financial Data & Stock Exchanges,Financial Services
-AGN.AS,6.144,,,6.79846,13,9701990400,Insurance - Diversified,Financial Services
-AGS.BR,56.7,,,57.28,10,10939980800,Insurance - Diversified,Financial Services
-ASRNL.AS,55.94,,,58.20071,14,11803507712,Insurance - Diversified,Financial Services
-NN.AS,56.32,,,58.12,15,15137069056,Insurance - Diversified,Financial Services
-CS.PA,41.24,,,43.64812,16,90669441024,Insurance - Diversified,Financial Services
-COFA.PA,16.46,,,18.325,4,2457938688,Insurance - Reinsurance,Financial Services
-SCR.PA,27.8,,,30.71067,15,5043142144,Insurance - Reinsurance,Financial Services
+ENX.PA,143.8,,,146.11765,17,14952036352,Financial Data & Stock Exchanges,Financial Services
+AGN.AS,6.138,,,6.79846,13,9692516352,Insurance - Diversified,Financial Services
+AGS.BR,56.6,,,57.28,10,10920686592,Insurance - Diversified,Financial Services
+ASRNL.AS,55.72,,,58.20071,14,11757087744,Insurance - Diversified,Financial Services
+NN.AS,56.24,,,58.12,15,15115568128,Insurance - Diversified,Financial Services
+CS.PA,41.08,,,43.64812,16,90317668352,Insurance - Diversified,Financial Services
+COFA.PA,16.42,,,18.325,4,2451965696,Insurance - Reinsurance,Financial Services
+SCR.PA,27.64,,,30.71067,15,5014116864,Insurance - Reinsurance,Financial Services
 CHL.L,2.25,,,,,118444,Shell Companies,Financial Services
 DISH.L,0.1125,,,,,503227,Shell Companies,Financial Services
 PRIS.L,0.45,,,,,723258,Shell Companies,Financial Services
 ELEG.L,0.075,,,,,1654905,Shell Companies,Financial Services
-OXUR.BR,0.031,,,,,263385,Biotechnology,Healthcare
+OXUR.BR,0.0316,,,,,268483,Biotechnology,Healthcare
 OVB.L,1.15,,,,,937983,Biotechnology,Healthcare
 PHXM.PA,0.1005,,,4.9,1,1010065,Biotechnology,Healthcare
 BIOS.BR,0.0024,,,,,1634992,Biotechnology,Healthcare
 ALBPS.PA,0.131,,,,,2895217,Biotechnology,Healthcare
 CIZ.L,1.55,,,,,6144075,Biotechnology,Healthcare
-ALVAL.PA,0.789,,,3.0,1,13207702,Biotechnology,Healthcare
+ALVAL.PA,0.79,,,3.0,1,13224442,Biotechnology,Healthcare
 AELIS.PA,0.97,,,7.5,2,13747034,Biotechnology,Healthcare
-ALNFL.PA,1.134,,,3.9,1,14370274,Biotechnology,Healthcare
-ALCOX.PA,0.223,,,1.0,1,16058141,Biotechnology,Healthcare
-ALDVI.PA,1.38,,,4.0,2,16950264,Biotechnology,Healthcare
+ALNFL.PA,1.15,,,3.9,1,14573030,Biotechnology,Healthcare
+ALCOX.PA,0.225,,,1.0,1,16202160,Biotechnology,Healthcare
+ALDVI.PA,1.36,,,4.0,2,16704608,Biotechnology,Healthcare
 ALEMS.BR,4.5,,,,,19043280,Biotechnology,Healthcare
-SIGHT.PA,0.17,,,0.36,1,26860168,Biotechnology,Healthcare
-POXEL.PA,0.584,,,,,31378320,Biotechnology,Healthcare
+SIGHT.PA,0.166,,,0.36,1,26228164,Biotechnology,Healthcare
+POXEL.PA,0.605,,,,,32506652,Biotechnology,Healthcare
 VVY.AS,1.43,,,5.25,2,37431536,Biotechnology,Healthcare
-ABNX.PA,1.21,,,10.75,2,41909320,Biotechnology,Healthcare
+ABNX.PA,1.204,,,10.75,2,41701504,Biotechnology,Healthcare
 ALGAE.PA,0.511,,,0.76,2,45857392,Biotechnology,Healthcare
-ADOC.PA,3.835,,,,,69944648,Biotechnology,Healthcare
-MAAT.PA,5.38,,,17.125,4,87074224,Biotechnology,Healthcare
-OSE.PA,5.105,,,16.0,3,123732440,Biotechnology,Healthcare
+ADOC.PA,3.88,,,,,70765384,Biotechnology,Healthcare
+MAAT.PA,5.54,,,17.125,4,89663792,Biotechnology,Healthcare
+OSE.PA,5.075,,,16.0,3,123005304,Biotechnology,Healthcare
 TNG.PA,0.8,,,2.0,2,106188000,Biotechnology,Healthcare
-ALCLS.PA,1.4,,,6.5,1,139419552,Biotechnology,Healthcare
-IPH.PA,1.532,,,4.79667,3,142114592,Biotechnology,Healthcare
-GNFT.PA,3.356,,,9.85,4,167808720,Biotechnology,Healthcare
+ALCLS.PA,1.384,,,6.5,1,137826192,Biotechnology,Healthcare
+IPH.PA,1.534,,,4.79667,3,142300128,Biotechnology,Healthcare
+GNFT.PA,3.334,,,9.85,4,166708672,Biotechnology,Healthcare
 HYL.BR,6.32,,,13.0,2,176962528,Biotechnology,Healthcare
 NANO.PA,4.32,,,11.35,6,204788320,Biotechnology,Healthcare
-ONWD.BR,4.66,,,13.53333,3,208047552,Biotechnology,Healthcare
-DBV.PA,1.812,,,1.52,2,247771088,Biotechnology,Healthcare
-IVA.PA,2.68,,,6.3,5,375644896,Biotechnology,Healthcare
+ONWD.BR,4.65,,,13.53333,3,207601120,Biotechnology,Healthcare
+DBV.PA,1.788,,,1.52,2,244489344,Biotechnology,Healthcare
+IVA.PA,2.65,,,6.3,5,371439904,Biotechnology,Healthcare
 VLA.PA,2.448,,,6.23,5,416316672,Biotechnology,Healthcare
-ABVX.PA,7.12,,,22.43333,3,451793888,Biotechnology,Healthcare
-MEDCL.PA,16.33,,,22.77143,7,541328064,Biotechnology,Healthcare
-PHARM.AS,0.891,,,1.9,4,609382528,Biotechnology,Healthcare
-GLPG.AS,24.92,,,31.9125,8,1642155776,Biotechnology,Healthcare
-TUB.BR,131.2,,,182.75,2,5893149696,Biotechnology,Healthcare
-ARGX.BR,467.8,,,666.2643,16,29033818112,Biotechnology,Healthcare
-UCB.BR,165.15,,,211.41176,17,31413673984,Biotechnology,Healthcare
+ABVX.PA,7.11,,,22.43333,3,451159360,Biotechnology,Healthcare
+MEDCL.PA,16.3,,,22.77143,7,540333568,Biotechnology,Healthcare
+PHARM.AS,0.8895,,,1.9,4,608356672,Biotechnology,Healthcare
+GLPG.AS,24.78,,,31.9125,8,1632930176,Biotechnology,Healthcare
+TUB.BR,130.8,,,182.75,2,5875183104,Biotechnology,Healthcare
+ARGX.BR,465.1,,,666.2643,16,28866246656,Biotechnology,Healthcare
+UCB.BR,165.2,,,211.41176,17,31423184896,Biotechnology,Healthcare
 VRCI.L,1.25,,,,,3031775,Diagnostics & Research,Healthcare
 ABDX.L,6.551,,,,,12415652,Diagnostics & Research,Healthcare
-ALKLH.PA,0.1812,,,,,55639092,Diagnostics & Research,Healthcare
-LBIRD.PA,18.65,,,19.5,2,411672640,Diagnostics & Research,Healthcare
-ERF.PA,61.26,,,59.72857,14,10914755584,Diagnostics & Research,Healthcare
-BIM.PA,118.6,,,123.53846,13,13986378752,Diagnostics & Research,Healthcare
-VIRP.PA,335.0,,,386.83334,9,2819892736,Drug Manufacturers - General,Healthcare
-SAN.PA,83.62,,,114.73043,23,101809856512,Drug Manufacturers - General,Healthcare
+ALKLH.PA,0.179,,,,,54963564,Diagnostics & Research,Healthcare
+LBIRD.PA,18.55,,,19.5,2,409465248,Diagnostics & Research,Healthcare
+ERF.PA,61.14,,,59.72857,14,10893375488,Diagnostics & Research,Healthcare
+BIM.PA,118.4,,,123.53846,13,13962793984,Diagnostics & Research,Healthcare
+VIRP.PA,338.0,,,386.83334,9,2845145344,Drug Manufacturers - General,Healthcare
+SAN.PA,83.17,,,114.73043,23,101261967360,Drug Manufacturers - General,Healthcare
 HELD.L,0.95,,,,,1395616,Drug Manufacturers - Specialty & Generic,Healthcare
-N4P.L,0.36,,,,,2996208,Drug Manufacturers - Specialty & Generic,Healthcare
+N4P.L,0.35,,,,,2912979,Drug Manufacturers - Specialty & Generic,Healthcare
 CEL.L,13.4,,,,,9225337,Drug Manufacturers - Specialty & Generic,Healthcare
 CHLL.L,2.15,,,,,10885257,Drug Manufacturers - Specialty & Generic,Healthcare
-AB.PA,1.388,,,2.54,1,85816432,Drug Manufacturers - Specialty & Generic,Healthcare
+AB.PA,1.374,,,2.54,1,84950848,Drug Manufacturers - Specialty & Generic,Healthcare
 ANCR.L,293.0,,,323.333,3,202138064,Drug Manufacturers - Specialty & Generic,Healthcare
-EAPI.PA,3.206,,,3.04,5,305301632,Drug Manufacturers - Specialty & Generic,Healthcare
+EAPI.PA,3.162,,,3.04,5,301111552,Drug Manufacturers - Specialty & Generic,Healthcare
 BOI.PA,22.55,,,25.0,1,391519840,Drug Manufacturers - Specialty & Generic,Healthcare
-VETO.PA,76.2,,,91.57143,7,908898304,Drug Manufacturers - Specialty & Generic,Healthcare
-FAGR.BR,22.3,,,23.74,5,1659195776,Drug Manufacturers - Specialty & Generic,Healthcare
-IPN.PA,104.3,,,127.07143,14,8644624384,Drug Manufacturers - Specialty & Generic,Healthcare
+VETO.PA,75.1,,,91.57143,7,895777792,Drug Manufacturers - Specialty & Generic,Healthcare
+FAGR.BR,22.25,,,23.74,5,1655475712,Drug Manufacturers - Specialty & Generic,Healthcare
+IPN.PA,103.8,,,127.07143,14,8603183104,Drug Manufacturers - Specialty & Generic,Healthcare
 IQAI.L,0.825,,,,,2035357,Health Information Services,Healthcare
 INHC.L,9.75,,,,,9150317,Health Information Services,Healthcare
 ALAMA.PA,0.24,,,,,12837600,Health Information Services,Healthcare
-DXRX.L,116.8,,,199.4,5,101809312,Health Information Services,Healthcare
+DXRX.L,120.0,,,199.4,5,104598608,Health Information Services,Healthcare
 CGM.PA,10.5,,,14.0,3,144550352,Health Information Services,Healthcare
-EQS.PA,48.55,,,62.225,4,756049728,Health Information Services,Healthcare
+EQS.PA,48.65,,,62.225,4,757607040,Health Information Services,Healthcare
 COP.DE,22.66,,,21.5,5,1172306048,Health Information Services,Healthcare
 KNB.L,0.225,,,,,1422963,Medical Care Facilities,Healthcare
 LNA.PA,26.1,,,30.75,4,267848640,Medical Care Facilities,Healthcare
-EMEIS.PA,12.0,,,11.88,5,1934772096,Medical Care Facilities,Healthcare
-CLARI.PA,5.395,,,4.53,5,1923268992,Medical Care Facilities,Healthcare
+EMEIS.PA,11.9,,,11.88,5,1918648960,Medical Care Facilities,Healthcare
+CLARI.PA,5.41,,,4.53,5,1928616320,Medical Care Facilities,Healthcare
 BELL.L,0.75,,,,,3009825,Medical Devices,Healthcare
 MHC.L,10.0,,,,,5203590,Medical Devices,Healthcare
-ALMKT.PA,0.116,,,,,8698840,Medical Devices,Healthcare
-ALCAR.PA,0.3365,,,3.0,1,20883996,Medical Devices,Healthcare
+ALMKT.PA,0.11,,,,,8248900,Medical Devices,Healthcare
+ALCAR.PA,0.3395,,,3.0,1,21070186,Medical Devices,Healthcare
 ALIKO.PA,1.52,,,2.8,1,21234552,Medical Devices,Healthcare
 ALBIO.PA,1.25,,,,,23039876,Medical Devices,Healthcare
-ALDMS.PA,1.365,,,2.1,1,27340678,Medical Devices,Healthcare
-ALMDT.PA,1.79,,,14.8,4,36012292,Medical Devices,Healthcare
-ALNOV.PA,0.4935,,,,,35531848,Medical Devices,Healthcare
+ALDMS.PA,1.36,,,2.1,1,27240528,Medical Devices,Healthcare
+ALMDT.PA,1.992,,,14.8,4,40076252,Medical Devices,Healthcare
+ALNOV.PA,0.4925,,,,,35459852,Medical Devices,Healthcare
 AFME.PA,1.325,,,4.03333,3,51964912,Medical Devices,Healthcare
-SEQUA.BR,1.43,,,3.96667,3,89639976,Medical Devices,Healthcare
-MXCT.L,152.0,,,531.555,1,161752320,Medical Devices,Healthcare
+SEQUA.BR,1.418,,,3.96667,3,88887752,Medical Devices,Healthcare
+MXCT.L,152.0,,,532.1288,1,161752320,Medical Devices,Healthcare
 ALERS.PA,25.25,,,30.0,1,253871072,Medical Devices,Healthcare
-GBT.PA,22.35,,,29.02,5,281587648,Medical Devices,Healthcare
-IBAB.BR,11.58,,,16.66667,3,338908384,Medical Devices,Healthcare
-PHIA.AS,20.78,,,24.75535,15,19223246848,Medical Devices,Healthcare
-BLC.PA,31.35,,,34.0,3,234935968,Medical Distribution,Healthcare
-ALSPW.PA,0.1214,,,0.36,1,3557202,Medical Instruments & Supplies,Healthcare
-ALCJ.PA,1.592,,,4.3,1,85500904,Medical Instruments & Supplies,Healthcare
-NYXH.BR,6.74,,,12.4,2,252315936,Medical Instruments & Supplies,Healthcare
-DIM.PA,206.5,,,241.57143,14,20090509312,Medical Instruments & Supplies,Healthcare
-EL.PA,236.5,,,260.89474,19,109061734400,Medical Instruments & Supplies,Healthcare
-ALSOG.PA,28.6,,,33.35,2,87997056,Aerospace & Defense,Industrials
-EXA.PA,88.0,,,97.6,5,1600940032,Aerospace & Defense,Industrials
-FII.PA,36.4,,,31.34286,7,1658340352,Aerospace & Defense,Industrials
-THEON.AS,29.6,,,30.98,5,2072000000,Aerospace & Defense,Industrials
-AM.PA,293.8,,,320.85715,14,22981595136,Aerospace & Defense,Industrials
-HO.PA,240.7,,,263.35715,14,49444356096,Aerospace & Defense,Industrials
-SAF.PA,266.7,,,268.81332,18,111586484224,Aerospace & Defense,Industrials
-AIR.PA,175.06,,,184.5,18,137829990400,Aerospace & Defense,Industrials
-AF.PA,9.844,,,8.875,16,2585605376,Airlines,Industrials
+GBT.PA,22.15,,,29.02,5,279067840,Medical Devices,Healthcare
+IBAB.BR,11.6,,,16.66667,3,339493728,Medical Devices,Healthcare
+PHIA.AS,20.74,,,24.75535,15,19186243584,Medical Devices,Healthcare
+BLC.PA,31.15,,,34.0,3,233437168,Medical Distribution,Healthcare
+ALSPW.PA,0.1238,,,0.36,1,3627525,Medical Instruments & Supplies,Healthcare
+ALCJ.PA,1.594,,,4.3,1,85608320,Medical Instruments & Supplies,Healthcare
+NYXH.BR,6.69,,,12.4,2,250444160,Medical Instruments & Supplies,Healthcare
+DIM.PA,205.9,,,241.57143,14,20032133120,Medical Instruments & Supplies,Healthcare
+EL.PA,234.5,,,260.89474,19,108139438080,Medical Instruments & Supplies,Healthcare
+ALSOG.PA,28.5,,,33.35,2,87689368,Aerospace & Defense,Industrials
+EXA.PA,87.4,,,97.6,5,1590024576,Aerospace & Defense,Industrials
+FII.PA,36.1,,,31.34286,7,1644672640,Aerospace & Defense,Industrials
+THEON.AS,29.3,,,30.98,5,2050999936,Aerospace & Defense,Industrials
+AM.PA,293.4,,,320.85715,14,22950305792,Aerospace & Defense,Industrials
+HO.PA,240.0,,,263.35715,14,49300561920,Aerospace & Defense,Industrials
+SAF.PA,265.9,,,268.81332,18,111251759104,Aerospace & Defense,Industrials
+AIR.PA,174.94,,,184.5,18,137735503872,Aerospace & Defense,Industrials
+AF.PA,9.766,,,8.875,16,2565117952,Airlines,Industrials
 ADP.PA,107.1,,,125.6875,16,10714926080,Airports & Air Services,Industrials
 RAT.VI,25.2,,,,,37800000,Building Products & Equipment,Industrials
-SEFER.PA,5.42,,,6.93333,3,63722400,Building Products & Equipment,Industrials
-ALPJT.PA,9.04,,,16.63333,3,70723720,Building Products & Equipment,Industrials
+SEFER.PA,5.44,,,6.93333,3,63957536,Building Products & Equipment,Industrials
+ALPJT.PA,9.02,,,16.63333,3,70567248,Building Products & Equipment,Industrials
 DECB.BR,2.115,,,3.6,3,292005376,Building Products & Equipment,Industrials
-RECT.BR,10.26,,,13.375,4,578193088,Building Products & Equipment,Industrials
-SGO.PA,98.78,,,105.55556,18,49081806848,Building Products & Equipment,Industrials
+RECT.BR,10.24,,,13.375,4,577065984,Building Products & Equipment,Industrials
+SGO.PA,98.62,,,105.55556,18,49002307584,Building Products & Equipment,Industrials
 ALEXA.PA,155.0,,,,,175379392,Business Equipment & Supplies,Industrials
 RGP.L,0.675,,,,,1634087,Conglomerates,Industrials
 CRI.PA,10.7,,,14.375,4,257811152,Conglomerates,Industrials
 BSGR.AS,5.88,,,6.7,2,494962496,Conglomerates,Industrials
 FLOB.BR,660.0,,,835.0,1,695441984,Conglomerates,Industrials
-IPS.PA,43.1,,,64.13333,9,1859937280,Consulting Services,Industrials
-BVI.PA,28.12,,,34.14375,16,12463121408,Consulting Services,Industrials
-ALFEN.AS,10.795,,,12.1,9,234670352,Electrical Equipment & Parts,Industrials
+IPS.PA,43.02,,,64.13333,9,1856485120,Consulting Services,Industrials
+BVI.PA,28.04,,,34.14375,16,12427664384,Consulting Services,Industrials
+ALFEN.AS,10.78,,,12.1,9,234344256,Electrical Equipment & Parts,Industrials
 PERR.PA,88.0,,,98.0,1,333317600,Electrical Equipment & Parts,Industrials
-MRN.PA,22.45,,,26.8,7,546486912,Electrical Equipment & Parts,Industrials
-EXENS.PA,38.5,,,38.08333,6,1998350208,Electrical Equipment & Parts,Industrials
-CENER.BR,9.81,,,12.6625,4,2082790528,Electrical Equipment & Parts,Industrials
-LIGHT.AS,23.0,,,26.08333,12,2827758080,Electrical Equipment & Parts,Industrials
-NEX.PA,107.4,,,116.50667,15,4698309632,Electrical Equipment & Parts,Industrials
-LR.PA,112.65,,,111.26944,18,29475659776,Electrical Equipment & Parts,Industrials
-VANL.L,44.8,,,58.0,3,48474044,Engineering & Construction,Industrials
+MRN.PA,22.35,,,26.8,7,544052672,Electrical Equipment & Parts,Industrials
+EXENS.PA,38.4,,,38.08333,6,1993159808,Electrical Equipment & Parts,Industrials
+CENER.BR,9.98,,,12.6625,4,2118883584,Electrical Equipment & Parts,Industrials
+LIGHT.AS,22.94,,,26.08333,12,2820381184,Electrical Equipment & Parts,Industrials
+NEX.PA,107.5,,,116.50667,15,4702684160,Electrical Equipment & Parts,Industrials
+LR.PA,112.25,,,111.26944,18,29370996736,Electrical Equipment & Parts,Industrials
+VANL.L,44.45,,,58.0,3,48095344,Engineering & Construction,Industrials
 KINO.L,87.0,,,,,55124332,Engineering & Construction,Industrials
 ABO.BR,6.1,,,6.9,1,64469068,Engineering & Construction,Industrials
 UBS.MC,0.0021,,,,,94754312,Engineering & Construction,Industrials
-TDSA.LS,0.338,,,,,141960000,Engineering & Construction,Industrials
-CFEB.BR,8.6,,,10.0,5,213296352,Engineering & Construction,Industrials
-MOUR.BR,600.0,,,,,237438000,Engineering & Construction,Industrials
-ASY.PA,42.5,,,42.7,4,602972992,Engineering & Construction,Industrials
-EGL.LS,3.918,,,5.08,4,1178079872,Engineering & Construction,Industrials
-HEIJM.AS,52.3,,,49.125,2,1456387584,Engineering & Construction,Industrials
+TDSA.LS,0.337,,,,,141540000,Engineering & Construction,Industrials
+CFEB.BR,8.64,,,10.0,5,214288432,Engineering & Construction,Industrials
+MOUR.BR,582.0,,,,,230314864,Engineering & Construction,Industrials
+ASY.PA,42.55,,,42.7,4,603682368,Engineering & Construction,Industrials
+EGL.LS,3.936,,,5.08,4,1183492224,Engineering & Construction,Industrials
+HEIJM.AS,52.4,,,49.125,2,1459172352,Engineering & Construction,Industrials
 BAMNB.AS,7.27,,,6.05,2,1958160000,Engineering & Construction,Industrials
-DEME.BR,130.0,,,175.7143,7,3285035008,Engineering & Construction,Industrials
-ARCAD.AS,41.4,,,59.92857,7,3712420864,Engineering & Construction,Industrials
+DEME.BR,129.4,,,175.7143,7,3269873152,Engineering & Construction,Industrials
+ARCAD.AS,41.24,,,59.92857,7,3698073344,Engineering & Construction,Industrials
 ACKB.BR,215.2,,,234.66667,6,7081995264,Engineering & Construction,Industrials
-SPIE.PA,46.52,,,44.75,10,7888907776,Engineering & Construction,Industrials
-FGR.PA,117.75,,,140.7,17,11329574912,Engineering & Construction,Industrials
-EN.PA,39.0,,,40.2,10,14845661184,Engineering & Construction,Industrials
-DG.PA,125.1,,,136.9381,21,70299066368,Engineering & Construction,Industrials
+SPIE.PA,46.46,,,44.75,10,7878732800,Engineering & Construction,Industrials
+FGR.PA,117.35,,,140.7,17,11291087872,Engineering & Construction,Industrials
+EN.PA,38.81,,,40.2,10,14773337088,Engineering & Construction,Industrials
+DG.PA,124.8,,,136.9381,21,70130483200,Engineering & Construction,Industrials
 ALWF.PA,3.76,,,6.0,2,7515977,Farm & Heavy Construction Machinery,Industrials
 EXE.PA,42.2,,,44.24,5,286245568,Farm & Heavy Construction Machinery,Industrials
-MTU.PA,20.8,,,25.61667,6,795978560,Farm & Heavy Construction Machinery,Industrials
-EXO.AS,87.8,,,118.83333,6,29697736704,Farm & Heavy Construction Machinery,Industrials
+MTU.PA,20.7,,,25.61667,6,792151744,Farm & Heavy Construction Machinery,Industrials
+EXO.AS,87.6,,,118.83333,6,29630087168,Farm & Heavy Construction Machinery,Industrials
 SAMS.PA,153.0,,,154.0,2,518211008,Industrial Distribution,Industrials
-THEP.PA,78.7,,,83.16667,3,721734848,Industrial Distribution,Industrials
+THEP.PA,79.2,,,83.16667,3,726320192,Industrial Distribution,Industrials
 ALTPC.PA,28.1,,,28.5,1,164033760,Infrastructure Operations,Industrials
-BPOST.BR,2.21,,,2.48,5,442002208,Integrated Freight & Logistics,Industrials
-PNL.AS,0.979,,,0.964,5,491566656,Integrated Freight & Logistics,Industrials
-FERGR.AS,9.13,,,11.63333,3,833569024,Integrated Freight & Logistics,Industrials
-CTT.LS,7.55,,,8.375,4,1013746112,Integrated Freight & Logistics,Industrials
+BPOST.BR,2.175,,,2.48,5,435002144,Integrated Freight & Logistics,Industrials
+PNL.AS,0.984,,,0.964,5,494077248,Integrated Freight & Logistics,Industrials
+FERGR.AS,9.12,,,11.63333,3,832656000,Integrated Freight & Logistics,Industrials
+CTT.LS,7.49,,,8.375,4,1005689792,Integrated Freight & Logistics,Industrials
 STF.PA,133.8,,,153.64,5,1691954560,Integrated Freight & Logistics,Industrials
 MPL.L,0.975,,,2.8999999,1,3474051,Marine Shipping,Industrials
-SIFG.AS,9.0,,,14.5,2,269597696,Metal Fabrication,Industrials
-VIO.BR,6.15,,,,,1594018560,Metal Fabrication,Industrials
-BEKB.BR,36.5,,,44.5,5,1849009664,Metal Fabrication,Industrials
+SIFG.AS,8.95,,,14.5,2,268099936,Metal Fabrication,Industrials
+VIO.BR,6.11,,,,,1583650944,Metal Fabrication,Industrials
+BEKB.BR,36.4,,,44.5,5,1843943936,Metal Fabrication,Industrials
 ALWTR.PA,0.85,,,0.7,1,4827677,Pollution & Treatment Controls,Industrials
-ALTUV.PA,1.9,,,,,26166040,Pollution & Treatment Controls,Industrials
-NXFIL.AS,3.615,,,4.24,5,212223632,Pollution & Treatment Controls,Industrials
-GET.PA,16.26,,,18.27333,15,8922383360,Railroads,Industrials
-ALO.PA,19.545,,,22.55625,16,9028714496,Railroads,Industrials
+ALTUV.PA,1.92,,,,,26441472,Pollution & Treatment Controls,Industrials
+NXFIL.AS,3.62,,,4.24,5,212517168,Pollution & Treatment Controls,Industrials
+GET.PA,16.28,,,18.27333,15,8933357568,Railroads,Industrials
+ALO.PA,19.56,,,22.55625,16,9035643904,Railroads,Industrials
 UNP.DE,192.68,,,,,115496632320,Railroads,Industrials
 ALTOO.PA,0.499,,,,,3684231,Rental & Leasing Services,Industrials
-ANX.L,65.515,,,,,77301144,Rental & Leasing Services,Industrials
-AYV.PA,9.575,,,10.2125,8,7820256768,Rental & Leasing Services,Industrials
-WATR.L,341.1,,,825.0,2,66144408,Specialty Business Services,Industrials
-GLO.PA,27.25,,,28.48571,7,798945472,Specialty Business Services,Industrials
-ALHG.PA,1.7075,,,2.2,2,1693694848,Specialty Business Services,Industrials
-IDL.PA,422.5,,,474.16666,6,2761350144,Specialty Business Services,Industrials
-PLX.PA,20.42,,,25.28667,15,2970640128,Specialty Business Services,Industrials
-TEP.PA,86.68,,,129.125,16,5096298496,Specialty Business Services,Industrials
-ELIS.PA,24.56,,,27.24,15,5728202240,Specialty Business Services,Industrials
-INPST.AS,13.2,,,19.14416,15,6569468416,Specialty Business Services,Industrials
-SW.PA,54.0,,,72.99706,17,7879680000,Specialty Business Services,Industrials
-WKL.AS,138.05,,,163.125,12,32016693248,Specialty Business Services,Industrials
-REN.AS,44.7,,,51.9,2,83913973760,Specialty Business Services,Industrials
-ALMCP.PA,0.0949,,,0.98,4,2761646,Specialty Industrial Machinery,Industrials
+ANX.L,67.0,,,,,79053304,Rental & Leasing Services,Industrials
+AYV.PA,9.6,,,10.2125,8,7840675840,Rental & Leasing Services,Industrials
+WATR.L,331.0,,,825.0,2,64185868,Specialty Business Services,Industrials
+GLO.PA,27.3,,,28.48571,7,800411392,Specialty Business Services,Industrials
+ALHG.PA,1.7035,,,2.2,2,1689727232,Specialty Business Services,Industrials
+IDL.PA,423.0,,,474.16666,6,2764617984,Specialty Business Services,Industrials
+PLX.PA,20.28,,,25.28667,15,2950273536,Specialty Business Services,Industrials
+TEP.PA,86.72,,,129.125,16,5098650624,Specialty Business Services,Industrials
+ELIS.PA,24.48,,,27.24,15,5709543424,Specialty Business Services,Industrials
+INPST.AS,13.22,,,19.19974,15,6579422208,Specialty Business Services,Industrials
+SW.PA,53.7,,,72.99706,17,7835904000,Specialty Business Services,Industrials
+WKL.AS,137.4,,,163.125,12,31865942016,Specialty Business Services,Industrials
+REN.AS,44.68,,,51.9,2,83876421632,Specialty Business Services,Industrials
+ALMCP.PA,0.094,,,0.98,4,2735456,Specialty Industrial Machinery,Industrials
 ALBOA.PA,20.5,,,,,19783956,Specialty Industrial Machinery,Industrials
-ALENO.PA,3.24,,,3.2,1,20304270,Specialty Industrial Machinery,Industrials
-BALYO.PA,0.4,,,,,67000800,Specialty Industrial Machinery,Industrials
-AGFB.BR,1.05,,,1.4,2,163800000,Specialty Industrial Machinery,Industrials
+ALENO.PA,3.16,,,3.2,1,19802930,Specialty Industrial Machinery,Industrials
+BALYO.PA,0.399,,,,,66833296,Specialty Industrial Machinery,Industrials
+AGFB.BR,1.034,,,1.4,2,161304000,Specialty Industrial Machinery,Industrials
 ALPM.PA,28.7,,,38.0,1,157260800,Specialty Industrial Machinery,Industrials
-KENDR.AS,11.54,,,15.16667,3,178871152,Specialty Industrial Machinery,Industrials
+KENDR.AS,11.5,,,15.16667,3,178251152,Specialty Industrial Machinery,Industrials
 SFPI.PA,2.37,,,2.5,1,218526784,Specialty Industrial Machinery,Industrials
-ALSTI.PA,67.4,,,59.66333,3,346130016,Specialty Industrial Machinery,Industrials
+ALSTI.PA,67.6,,,59.66333,3,347157088,Specialty Industrial Machinery,Industrials
 JEN.BR,54.0,,,53.5,1,506911488,Specialty Industrial Machinery,Industrials
-WAGA.PA,21.8,,,26.33333,3,542987840,Specialty Industrial Machinery,Industrials
-AALB.AS,31.06,,,42.35,5,3372588032,Specialty Industrial Machinery,Industrials
-SU.PA,223.7,,,254.07652,23,125660340224,Specialty Industrial Machinery,Industrials
-ALFRE.PA,2.28,,,4.0,3,128825240,Staffing & Employment Services,Industrials
-BRNL.AS,9.02,,,9.75,2,454002784,Staffing & Employment Services,Industrials
+WAGA.PA,21.75,,,26.33333,3,541742464,Specialty Industrial Machinery,Industrials
+AALB.AS,30.94,,,42.35,5,3359558144,Specialty Industrial Machinery,Industrials
+SU.PA,222.95,,,254.07652,23,125239042048,Specialty Industrial Machinery,Industrials
+ALFRE.PA,2.29,,,4.0,3,129390264,Staffing & Employment Services,Industrials
+BRNL.AS,9.09,,,9.75,2,457526080,Staffing & Employment Services,Industrials
 CEN.PA,67.2,,,84.66667,3,777329216,Staffing & Employment Services,Industrials
 SDG.PA,32.7,,,38.0,2,747440256,Staffing & Employment Services,Industrials
-RAND.AS,41.5,,,40.64118,17,7271920640,Staffing & Employment Services,Industrials
+RAND.AS,41.46,,,40.64118,17,7264911360,Staffing & Employment Services,Industrials
 ALEUP.PA,0.0054,,,,,7120818,Waste Management,Industrials
-OREGE.PA,0.28,,,0.35,1,14130228,Waste Management,Industrials
+OREGE.PA,0.29,,,0.35,1,14634879,Waste Management,Industrials
 GRI.MC,1.03,,,,,31269048,Waste Management,Industrials
-AURE.PA,5.76,,,7.0,1,54236164,Waste Management,Industrials
-CAMB.BR,275.0,,,,,412500000,Waste Management,Industrials
-SCHP.PA,98.9,,,110.54,5,779070912,Waste Management,Industrials
+AURE.PA,5.6,,,7.0,1,52729600,Waste Management,Industrials
+CAMB.BR,272.0,,,,,408000000,Waste Management,Industrials
+SCHP.PA,101.4,,,110.54,5,798764288,Waste Management,Industrials
 DBG.PA,5.755,,,6.58,5,916236352,Waste Management,Industrials
-UMI.BR,14.43,,,11.87333,15,3470140672,Waste Management,Industrials
-VIE.PA,30.59,,,35.28333,18,22345627648,Waste Management,Industrials
+UMI.BR,14.48,,,11.87333,15,3482164736,Waste Management,Industrials
+VIE.PA,30.46,,,35.28333,18,22250663936,Waste Management,Industrials
 ALCAP.PA,3.08,,,,,6747325,Real Estate - Development,Real Estate
 BANI.BR,2.98,,,4.5,1,33524702,Real Estate - Development,Real Estate
 IEP.BR,5.4,,,,,47556668,Real Estate - Development,Real Estate
 ATEB.BR,2.77,,,4.7,2,168184432,Real Estate - Development,Real Estate
-IMMO.BR,19.52,,,35.0,3,199832096,Real Estate - Development,Real Estate
-CTPNV.AS,17.9,,,19.69294,17,8645968896,Real Estate - Development,Real Estate
+IMMO.BR,19.3,,,35.0,3,197579888,Real Estate - Development,Real Estate
+CTPNV.AS,17.86,,,19.69294,17,8626648064,Real Estate - Development,Real Estate
 CBOT.PA,3.64,,,4.6,1,128504016,Real Estate - Diversified,Real Estate
-NXI.PA,9.9,,,11.73333,6,551605184,Real Estate - Diversified,Real Estate
+NXI.PA,9.955,,,11.73333,6,554669696,Real Estate - Diversified,Real Estate
 SOFT.BR,0.85,,,,,3130669,Real Estate Services,Real Estate
 MLNEU.BR,10.5,,,,,3814125,Real Estate Services,Real Estate
 DIEG.BR,119.0,,,,,13974051,Real Estate Services,Real Estate
-MCC.BR,474.0,,,,,18524868,Real Estate Services,Real Estate
+MCC.BR,470.0,,,,,18368540,Real Estate Services,Real Estate
 CDFF.L,2600.0,,,,,26234520,Real Estate Services,Real Estate
 ACCB.BR,0.0295,,,,,37254076,Real Estate Services,Real Estate
 NAI.AS,9.1,,,,,47699472,Real Estate Services,Real Estate
 MLVSY.PA,0.99,,,,,103756952,Real Estate Services,Real Estate
-TEXF.BR,34.0,,,45.567783,1,124663040,Real Estate Services,Real Estate
+TEXF.BR,34.4,,,45.567783,1,126129672,Real Estate Services,Real Estate
 INCLU.BR,17.4,,,19.0,1,132606792,Real Estate Services,Real Estate
-VGP.BR,88.5,,,93.1,10,2418076672,Real Estate Services,Real Estate
+VGP.BR,88.9,,,93.1,10,2429005824,Real Estate Services,Real Estate
 CBSM.PA,8.7,,,,,121545960,REIT - Diversified,Real Estate
 WEB.BR,37.4,,,40.0,2,131007720,REIT - Diversified,Real Estate
 YSIL.MC,10.9,,,,,341960224,REIT - Diversified,Real Estate
-NEXTA.BR,43.2,,,50.0,1,436583520,REIT - Diversified,Real Estate
+NEXTA.BR,43.0,,,50.0,1,434562304,REIT - Diversified,Real Estate
 YGMP.MC,66.5,,,,,1271553152,REIT - Diversified,Real Estate
-ICAD.PA,21.94,,,24.64435,11,1671222528,REIT - Diversified,Real Estate
-COV.PA,52.95,,,59.24,10,5978955264,REIT - Diversified,Real Estate
-CPINV.BR,12.38,,,14.5,4,465380288,REIT - Healthcare Facilities,Real Estate
+ICAD.PA,21.92,,,24.64435,11,1669699072,REIT - Diversified,Real Estate
+COV.PA,52.9,,,59.24,10,5973309440,REIT - Diversified,Real Estate
+CPINV.BR,12.36,,,14.5,4,464628448,REIT - Healthcare Facilities,Real Estate
 COFB.BR,76.25,,,76.55636,11,2966597632,REIT - Healthcare Facilities,Real Estate
-AED.BR,65.05,,,72.77778,9,3161970176,REIT - Healthcare Facilities,Real Estate
+AED.BR,65.0,,,72.77778,9,3159539456,REIT - Healthcare Facilities,Real Estate
 COVH.PA,22.6,,,,,3570416128,REIT - Hotel & Motel,Real Estate
-MONT.BR,65.4,,,78.75,8,1516351360,REIT - Industrial,Real Estate
-ARG.PA,64.3,,,82.83333,6,1677227008,REIT - Industrial,Real Estate
-WDP.BR,20.76,,,25.23333,15,4890786304,REIT - Industrial,Real Estate
+MONT.BR,65.3,,,78.75,8,1514032768,REIT - Industrial,Real Estate
+ARG.PA,64.1,,,82.83333,6,1672009984,REIT - Industrial,Real Estate
+WDP.BR,20.78,,,25.23333,15,4895498240,REIT - Industrial,Real Estate
 NSI.AS,24.2,,,22.625,4,466566336,REIT - Office,Real Estate
 FLY.PA,76.4,,,77.5,1,3294597376,REIT - Office,Real Estate
-GFC.PA,91.9,,,109.15,14,7049309696,REIT - Office,Real Estate
-HOMI.BR,20.0,,,19.5,2,410033984,REIT - Residential,Real Estate
-XIOR.BR,31.0,,,36.375,8,1485454848,REIT - Residential,Real Estate
-ALTA.PA,103.2,,,112.0,1,2276540416,REIT - Residential,Real Estate
-QRF.BR,10.3,,,12.5,2,80328568,REIT - Retail,Real Estate
-WEHB.BR,53.2,,,,,501510560,REIT - Retail,Real Estate
+GFC.PA,92.2,,,109.15,14,7072321024,REIT - Office,Real Estate
+HOMI.BR,20.05,,,19.5,2,411059072,REIT - Residential,Real Estate
+XIOR.BR,30.95,,,36.375,8,1483059072,REIT - Residential,Real Estate
+ALTA.PA,103.4,,,112.0,1,2280952320,REIT - Residential,Real Estate
+QRF.BR,10.4,,,12.5,2,81108456,REIT - Retail,Real Estate
+WEHB.BR,52.8,,,,,497739776,REIT - Retail,Real Estate
 VASTB.BR,32.3,,,32.0,2,524658592,REIT - Retail,Real Estate
 WHA.AS,17.42,,,17.33333,3,801074368,REIT - Retail,Real Estate
-MERY.PA,10.76,,,13.02,5,1019360384,REIT - Retail,Real Estate
-ECMPA.AS,27.0,,,27.88889,9,1457033344,REIT - Retail,Real Estate
+MERY.PA,10.8,,,13.02,5,1023149824,REIT - Retail,Real Estate
+ECMPA.AS,27.15,,,27.88889,9,1465128064,REIT - Retail,Real Estate
 CARM.PA,16.9,,,19.98,6,2402149120,REIT - Retail,Real Estate
-LI.PA,33.4,,,32.29286,14,9611118592,REIT - Retail,Real Estate
-URW.PA,79.98,,,95.9,14,11565267968,REIT - Retail,Real Estate
+LI.PA,33.46,,,32.29286,14,9628383232,REIT - Retail,Real Estate
+URW.PA,80.04,,,95.9,14,11573944320,REIT - Retail,Real Estate
 IMMOU.BR,34.0,,,,,15804628,REIT - Specialty,Real Estate
-SHUR.BR,36.2,,,41.07692,13,3716726528,REIT - Specialty,Real Estate
+SHUR.BR,36.15,,,41.07692,13,3711592960,REIT - Specialty,Real Estate
 OPTI.BR,0.0064,,,,,12762048,Communication Equipment,Technology
-ALHF.PA,4.57,,,6.6,1,13074313,Communication Equipment,Technology
+ALHF.PA,4.51,,,6.6,1,12902660,Communication Equipment,Technology
 ALBPK.PA,1.81,,,2.5,2,23128180,Communication Equipment,Technology
 ALNTG.PA,0.99,,,1.5,2,33164902,Communication Equipment,Technology
-ATEME.PA,4.64,,,8.0,1,55086080,Communication Equipment,Technology
+ATEME.PA,4.76,,,8.0,1,56510724,Communication Equipment,Technology
 EKI.PA,4.495,,,5.84,5,121604584,Communication Equipment,Technology
-PARRO.PA,9.44,,,,,297240096,Communication Equipment,Technology
-EVS.BR,35.8,,,44.25,4,477700864,Communication Equipment,Technology
-TWEKA.AS,39.08,,,46.75,6,1558397184,Communication Equipment,Technology
+PARRO.PA,9.32,,,,,293461632,Communication Equipment,Technology
+EVS.BR,35.75,,,44.25,4,477033696,Communication Equipment,Technology
+TWEKA.AS,38.82,,,46.75,6,1548029056,Communication Equipment,Technology
 ETL.PA,3.545,,,2.95,9,1683120000,Communication Equipment,Technology
-ALTHO.PA,0.0189,,,,,2346680,Computer Hardware,Technology
-ALPWG.PA,0.946,,,0.76,4,47856436,Computer Hardware,Technology
-GUI.PA,5.1,,,5.95,2,74652776,Computer Hardware,Technology
+ALTHO.PA,0.0191,,,,,2371513,Computer Hardware,Technology
+ALPWG.PA,0.95,,,0.76,4,48058788,Computer Hardware,Technology
+GUI.PA,5.06,,,5.95,2,74067264,Computer Hardware,Technology
 ALMDG.PA,14.0,,,23.0,2,86706624,Computer Hardware,Technology
-AL2SI.PA,6.64,,,8.83333,3,147992320,Computer Hardware,Technology
-ALBOO.PA,0.0012,,,,,485863,Consumer Electronics,Technology
-BIG.PA,1.418,,,1.425,4,26221656,Consumer Electronics,Technology
+AL2SI.PA,6.53,,,8.83333,3,145540640,Computer Hardware,Technology
+ALBOO.PA,0.0014,,,,,566840,Consumer Electronics,Technology
+BIG.PA,1.41,,,1.425,4,26073720,Consumer Electronics,Technology
 ALICA.PA,7.26,,,10.9,2,58740880,Electronic Components,Technology
-BAR.BR,12.54,,,14.6,5,1058266880,Electronic Components,Technology
+BAR.BR,12.51,,,14.6,5,1055735104,Electronic Components,Technology
 ALLGO.PA,2.4,,,5.1,2,8471040,Electronics & Computer Distribution,Technology
 NAR.L,32.0,,,,,8676288,Electronics & Computer Distribution,Technology
 ALINN.PA,3.53,,,4.65,2,10512764,Electronics & Computer Distribution,Technology
 ALLDL.PA,6.8,,,6.25,2,41657072,Electronics & Computer Distribution,Technology
-RXL.PA,26.11,,,27.94167,12,7712293376,Electronics & Computer Distribution,Technology
+RXL.PA,26.07,,,27.94167,12,7700477952,Electronics & Computer Distribution,Technology
 MBO.L,1.4,,,,,1488185,Information Technology Services,Technology
 ALKEY.PA,7.9,,,,,125610000,Information Technology Services,Technology
-S30.PA,1.814,,,1.9,3,194199584,Information Technology Services,Technology
-INF.PA,39.9,,,47.01667,6,277002560,Information Technology Services,Technology
+S30.PA,1.794,,,1.9,3,192058464,Information Technology Services,Technology
+INF.PA,39.8,,,47.01667,6,276308320,Information Technology Services,Technology
 NBA.LS,8.0,,,,,301529600,Information Technology Services,Technology
-ECONB.BR,1.928,,,2.26667,3,325108992,Information Technology Services,Technology
-NEDAP.AS,71.5,,,66.0,1,471735552,Information Technology Services,Technology
-ATO.PA,31.85,,,30.85,4,612058304,Information Technology Services,Technology
-AUB.PA,50.9,,,56.0,5,651158656,Information Technology Services,Technology
-NRO.PA,45.25,,,56.0,1,1100751488,Information Technology Services,Technology
-WAVE.PA,58.9,,,58.35,4,1447167104,Information Technology Services,Technology
-ATE.PA,78.25,,,95.45,8,2722724352,Information Technology Services,Technology
-SOP.PA,202.0,,,223.22221,9,3928596992,Information Technology Services,Technology
-CAP.PA,145.7,,,180.3125,16,24761567232,Information Technology Services,Technology
+ECONB.BR,1.926,,,2.26667,3,324771744,Information Technology Services,Technology
+NEDAP.AS,71.6,,,66.0,1,472395296,Information Technology Services,Technology
+ATO.PA,31.775,,,30.85,4,610616960,Information Technology Services,Technology
+AUB.PA,50.5,,,56.0,5,646041472,Information Technology Services,Technology
+NRO.PA,44.95,,,56.0,1,1093453696,Information Technology Services,Technology
+WAVE.PA,58.5,,,58.35,4,1437339136,Information Technology Services,Technology
+ATE.PA,78.05,,,95.45,8,2715765504,Information Technology Services,Technology
+SOP.PA,202.2,,,223.22221,9,3932486656,Information Technology Services,Technology
+CAP.PA,145.05,,,180.3125,16,24651102208,Information Technology Services,Technology
 MET.L,0.675,,,,,2019451,Scientific & Technical Instruments,Technology
-LACR.PA,8.02,,,8.55,2,38376344,Scientific & Technical Instruments,Technology
-MEMS.PA,4.165,,,8.3,1,31650292,Semiconductor Equipment & Materials,Technology
+LACR.PA,8.14,,,8.55,2,38950552,Scientific & Technical Instruments,Technology
+MEMS.PA,4.18,,,8.3,1,31764278,Semiconductor Equipment & Materials,Technology
 ALRIB.PA,3.55,,,3.25,2,74880504,Semiconductor Equipment & Materials,Technology
-SOI.PA,49.21,,,61.05556,18,1754365952,Semiconductor Equipment & Materials,Technology
-BESI.AS,121.15,,,132.9,21,9560662016,Semiconductor Equipment & Materials,Technology
-ASM.AS,512.4,,,610.65,20,25457928192,Semiconductor Equipment & Materials,Technology
-ASML.AS,669.7,,,767.28125,32,263326040064,Semiconductor Equipment & Materials,Technology
+SOI.PA,49.17,,,61.05556,18,1752939904,Semiconductor Equipment & Materials,Technology
+BESI.AS,120.2,,,132.9,21,9485691904,Semiconductor Equipment & Materials,Technology
+ASM.AS,510.4,,,610.65,20,25358559232,Semiconductor Equipment & Materials,Technology
+ASML.AS,665.0,,,767.28125,32,261478006784,Semiconductor Equipment & Materials,Technology
 ALKAL.PA,0.48,,,3.16667,3,5526240,Semiconductors,Technology
-XFAB.PA,6.935,,,5.594064,6,905932928,Semiconductors,Technology
-MELE.BR,73.6,,,68.5,11,2995122432,Semiconductors,Technology
-STMPA.PA,27.07,,,24.045712,21,24221153280,Semiconductors,Technology
+XFAB.PA,6.945,,,5.5927444,6,907239232,Semiconductors,Technology
+MELE.BR,73.65,,,68.5,11,2997157376,Semiconductors,Technology
+STMPA.PA,27.03,,,24.040037,21,24185362432,Semiconductors,Technology
 ALNMR.PA,0.23,,,,,1338347,Software - Application,Technology
 DSG.L,9.0,,,,,1837620,Software - Application,Technology
 SYME.L,0.0028,,,,,2008501,Software - Application,Technology
 ALPRG.PA,0.27,,,0.4,1,27148232,Software - Application,Technology
 COH.PA,8.4,,,,,47758868,Software - Application,Technology
-ALSTW.PA,40.3,,,38.0,1,106902600,Software - Application,Technology
-HYSG.BR,3.58,,,5.0,1,118036536,Software - Application,Technology
+ALSTW.PA,41.0,,,38.0,1,108759472,Software - Application,Technology
+HYSG.BR,3.5,,,5.0,1,115398848,Software - Application,Technology
 BANQ.BR,3.47,,,4.76667,3,128847000,Software - Application,Technology
-CLA.PA,2.54,,,3.0,1,147754848,Software - Application,Technology
+CLA.PA,2.555,,,3.0,1,148627424,Software - Application,Technology
 MTRK.AS,4.0,,,2.7,1,196235600,Software - Application,Technology
-CMCOM.AS,7.06,,,9.5,2,205636624,Software - Application,Technology
-SWP.PA,37.65,,,43.075,4,355207808,Software - Application,Technology
-ALBFR.PA,252.0,,,277.0,3,362874944,Software - Application,Technology
-LIN.PA,77.4,,,81.55,2,380595936,Software - Application,Technology
-QDT.PA,16.26,,,23.81667,6,548153856,Software - Application,Technology
-ALTBG.PA,4.09,,,,,594011200,Software - Application,Technology
-TOM2.AS,5.06,,,6.0,2,622435648,Software - Application,Technology
-LSS.PA,24.3,,,31.25,6,923344064,Software - Application,Technology
-74SW.PA,39.7,,,39.7,2,1185342720,Software - Application,Technology
-PLNW.PA,22.95,,,28.01429,7,1692842496,Software - Application,Technology
+CMCOM.AS,7.07,,,9.5,2,205927888,Software - Application,Technology
+SWP.PA,37.75,,,43.075,4,356151232,Software - Application,Technology
+ALBFR.PA,249.0,,,277.0,3,358555008,Software - Application,Technology
+LIN.PA,77.8,,,81.55,2,382562848,Software - Application,Technology
+QDT.PA,16.28,,,23.81667,6,548828096,Software - Application,Technology
+ALTBG.PA,4.015,,,,,583118528,Software - Application,Technology
+TOM2.AS,5.09,,,6.0,2,626126016,Software - Application,Technology
+LSS.PA,24.35,,,31.25,6,925244032,Software - Application,Technology
+74SW.PA,39.5,,,39.7,2,1179371264,Software - Application,Technology
+PLNW.PA,23.0,,,28.01429,7,1696530560,Software - Application,Technology
 VU.PA,250.0,,,251.57143,7,4004075008,Software - Application,Technology
 ALTTU.PA,5.45,,,,,4481976320,Software - Application,Technology
-DSY.PA,30.92,,,37.975,18,40563949568,Software - Application,Technology
+DSY.PA,30.86,,,37.975,18,40485236736,Software - Application,Technology
 MODE.L,1.45,,,,,1519469,Software - Infrastructure,Technology
-ALGEC.PA,3.5,,,,,3567200,Software - Infrastructure,Technology
+ALGEC.PA,3.51,,,,,3577392,Software - Infrastructure,Technology
 NARF.L,0.51,,,,,8656637,Software - Infrastructure,Technology
 KEYW.BR,0.8,,,,,18013280,Software - Infrastructure,Technology
-VMX.PA,0.21,,,0.31873518,2,18454820,Software - Infrastructure,Technology
-ALTAI.PA,10.15,,,22.5,1,65288552,Software - Infrastructure,Technology
-ALHYP.PA,11.4,,,17.0,1,71979256,Software - Infrastructure,Technology
-ALLIX.PA,22.8,,,19.0,2,150637088,Software - Infrastructure,Technology
-WLN.PA,3.86,,,5.39444,18,1088763136,Software - Infrastructure,Technology
-OVH.PA,10.26,,,11.38,10,1562669952,Software - Infrastructure,Technology
-ADYEN.AS,1526.4,,,1889.5197,30,48129224704,Software - Infrastructure,Technology
+VMX.PA,0.213,,,0.31869757,2,18718460,Software - Infrastructure,Technology
+ALTAI.PA,10.11,,,22.5,1,65031260,Software - Infrastructure,Technology
+ALHYP.PA,11.15,,,17.0,1,70400760,Software - Infrastructure,Technology
+ALLIX.PA,22.4,,,19.0,2,147994336,Software - Infrastructure,Technology
+WLN.PA,3.892,,,5.39444,18,1097789184,Software - Infrastructure,Technology
+OVH.PA,10.22,,,11.38,10,1556577664,Software - Infrastructure,Technology
+ADYEN.AS,1518.6,,,1889.5197,30,47883280384,Software - Infrastructure,Technology
 MBTN.SW,0.751,,,4.05,2,23760514,Solar,Technology
 UMB.MC,4.0,,,,,86232000,Solar,Technology
 SOL.MC,1.598,,,,,145439248,Solar,Technology
-ALGBE.PA,0.085,,,,,1574693,Utilities - Diversified,Utilities
-RENE.LS,3.06,,,2.99444,9,2046420864,Utilities - Diversified,Utilities
-EDP.LS,3.833,,,4.13095,21,15960266752,Utilities - Diversified,Utilities
-ENGI.PA,19.66,,,20.94706,17,47849095168,Utilities - Diversified,Utilities
-ELI.BR,98.7,,,105.0,13,10844365824,Utilities - Regulated Electric,Utilities
+ALGBE.PA,0.081,,,,,1500589,Utilities - Diversified,Utilities
+RENE.LS,3.065,,,2.99444,9,2049764736,Utilities - Diversified,Utilities
+EDP.LS,3.855,,,4.13095,21,16051872768,Utilities - Diversified,Utilities
+ENGI.PA,19.585,,,20.94706,17,47666556928,Utilities - Diversified,Utilities
+ELI.BR,99.15,,,105.0,13,10893808640,Utilities - Regulated Electric,Utilities
 EKOP.BR,6.12,,,13.75,2,107119584,Utilities - Regulated Water,Utilities
 NZI.L,1.35,,,,,819450,Utilities - Renewable,Utilities
 PNPL.L,2.74,,,,,2283321,Utilities - Renewable,Utilities
-ALAGO.PA,0.155,,,0.5,1,4613327,Utilities - Renewable,Utilities
-ALCWE.PA,3.0,,,,,15848220,Utilities - Renewable,Utilities
-ALOKW.PA,2.28,,,2.95,2,19197508,Utilities - Renewable,Utilities
+ALAGO.PA,0.1544,,,0.5,1,4595469,Utilities - Renewable,Utilities
+ALCWE.PA,2.92,,,,,15425601,Utilities - Renewable,Utilities
+ALOKW.PA,2.155,,,2.95,2,18145014,Utilities - Renewable,Utilities
 ALHAF.PA,0.36,,,0.755,2,22245012,Utilities - Renewable,Utilities
-HDF.PA,5.02,,,6.0,1,73436072,Utilities - Renewable,Utilities
-ALESE.PA,7.39,,,11.15,2,108476328,Utilities - Renewable,Utilities
-ELEC.PA,141.5,,,,,1014468672,Utilities - Renewable,Utilities
-VLTSA.PA,8.825,,,11.2125,8,1155307264,Utilities - Renewable,Utilities
-EDPR.LS,10.24,,,11.2587,23,10762547200,Utilities - Renewable,Utilities
+HDF.PA,5.06,,,6.0,1,74021224,Utilities - Renewable,Utilities
+ALESE.PA,7.3,,,11.15,2,107155240,Utilities - Renewable,Utilities
+ELEC.PA,141.0,,,,,1010883968,Utilities - Renewable,Utilities
+VLTSA.PA,8.845,,,11.2125,8,1157925504,Utilities - Renewable,Utilities
+EDPR.LS,10.34,,,11.2587,23,10867650560,Utilities - Renewable,Utilities
 ARVEN.PA,5.05,,,7.83333,3,,Utilities - Renewable,Utilities
 JADE.L,,,,,,4424,,
 SLFR.L,,1.01,1.3,,,52565,,
@@ -668,49 +668,49 @@ RAL.PA,,,,,,2334001,,
 HOME.L,,,,,,3008118,,
 M0YN.DE,0.532,,,,,3361346,,
 CGW.L,,,,,,3412234,,
-ATY.L,165,,,,,3560502,,
+ATY.L,165.0,,,,,3560502,,
 MLTV.BR,,,,,,3907435,,
 ADA.L,,,,,,5105065,,
 EEP.MC,,,,,,6260868,,
 MED.MC,0.69,,,,,8917974,,
 AUGR.PA,7.0,,,,,9950780,,
 TUF.DE,0.25,,,,,12000000,,
-HYG.L,8,,,,,14138400,,
+HYG.L,8.0,,,,,14138400,,
 C0M.DE,2.815,,,,,18175188,,
 MINI.L,42.9,,,,,19665404,,
-AEET.L,32.5326,,,,,28503406,,
+AEET.L,35.0,,,,,28503406,,
 BCART.BR,,,,,,27235612,,
 MLBMD.PA,,,,,,30780612,,
 ISE.MC,,,,,,33111936,,
 FVEN.L,91.5,,,,,98071528,,
-GGR.MC,,3.77,3.83,,,111156864,,
+GGR.MC,,3.67,3.83,,,108841096,,
 MVCT.L,39.5,,,,,109687952,,
 GAM.MC,,1.29,1.31,,,122044440,,
-NTV.L,54.89,,,,,136188672,,
-PGOO.L,49.4,,,,,157532320,,
+NTV.L,55.5,,,,,136188672,,
+PGOO.L,48.1,,,,,157532320,,
 CRWC.L,40.2,,,,,165636464,,
-FTV.L,63.5,,,,,195965232,,
+FTV.L,66.5,,,,,200487520,,
 HEIT.L,,,,,,209820832,,
 BMD.L,51.5,,,,,212691392,,
-AATG.L,67,,,,,266953408,,
+AATG.L,68.5,,,,,266953408,,
 BGLF.L,,0.74,0.758,,,313628640,,
-NAT.MC,,0.73,0.735,,,315074560,,
+NAT.MC,,0.73,0.735,,,317232608,,
 OAP3.L,,45.0,48.0,,,486204000,,
 BIO3.DE,28.4,,,,,1396871040,,
 AH91.DE,3.7555,,,,,1473748352,,
-HBX.MC,,10.48,10.5,,,2596019968,,
+HBX.MC,,10.54,10.56,,,2610854400,,
 AV-B.L,,,,,,4052000000,,
 AV-A.L,,,,,,4254600192,,
-PUIG.MC,,17.2,17.23,,,9700025344,,
-ML.PA,31.85,,,36.39375,16,22718668800,,
+PUIG.MC,,17.13,17.15,,,9660594176,,
+ML.PA,31.76,,,36.39375,16,22654472192,,
 PGH.DE,,0.66,0.7,,,,,
-BRNK.DE,,2.06,2.09,,,,,
-VUL.DE,,2.122,2.166,,,,,
-VRV.DE,,2.67,2.672,,,,,
-VMED.DE,,4.14,4.28,,,,,
-EJT1.DE,,6.11,6.126,,,,,
-RRU.DE,,10.96,10.98,,,,,
-KTN.DE,,25.02,25.06,,,,,
+BRNK.DE,,2.03,2.08,,,,,
+VUL.DE,,2.122,2.158,,,,,
+VRV.DE,,2.724,2.738,,,,,
+VMED.DE,,4.14,4.3,,,,,
+EJT1.DE,,6.08,6.098,,,,,
+RRU.DE,,10.96,11.0,,,,,
+KTN.DE,,25.16,25.2,,,,,
 EIN.DE,,74.1,74.8,,,,,
 NTEA.L,,129.0,135.0,,,,,
 DIS.DE,,,,,,,,
@@ -894,206 +894,206 @@ TCS.L,,,,,,,,
 GLPR.L,,,,,,,,
 MIL.L,,,,,,,,
 AEEE.L,0.65,,,,,,,
-XBBAR.MC,5.0,4.42,5.0,,,,,
+XBBAR.MC,5.0,4.5,5.0,,,,,
 RNEP.L,18.15,17.5,18.8,,,,,
-TORG.L,55.0,49.0,55.0,,,,,
-AERS.L,53.8,52.6,56.0,,,,,
+TORG.L,55.0,50.0,55.0,,,,,
+AERS.L,53.8,52.6,55.8,,,,,
 FOX.L,0.038,0.035,0.04,0.24,1,862379,,
-ALNA.L,7,6,8,,,1588817,,
-BAF.L,15,13,17,,,3750000,,
-KCR.L,12.5,9.5,12.5,,,4583656,,
-SURE.L,85.5,85.0,89.0,,,6534978,,
-LMS.L,17.7251,19.4,19.9,,,15700858,,
-DVNO.L,70,70,86,,,19482996,,
-PMGR.L,110.1501,110,113,,,20281232,,
-RNEW.L,0.224,0.224,0.268,,,33967188,,
-SDV.L,143.967,141,144,,,31841626,,
-HGEN.L,27.805,27.1,28.6,65,1,36626100,,
-BRIG.L,204,204,206,,,39487156,,
-VSL.L,14.6,14.25,14.6,,,40767432,,
-RCOI.L,0.77,0.74,0.765,,,51628928,,
-NAS.L,397.95,384.0,387.0,,,51805916,,
-SBO.L,72,70,72,,,52469004,,
-AIRE.L,75.8,73.4,75.8,,,61099500,,
-MIG1.L,34.4,35,37,,,65318760,,
-SBSI.L,76.3,76,79,,,62835312,,
+ALNA.L,7.0,6.0,8.0,,,1588817,,
+BAF.L,15.0,13.0,17.0,,,3750000,,
+KCR.L,11.0,9.5,12.5,,,4583656,,
+SURE.L,85.5,83.0,88.0,,,6534978,,
+LMS.L,19.3,18.1,20.2,,,15700858,,
+DVNO.L,78.0,70.0,86.0,,,19482996,,
+PMGR.L,111.204,111.0,115.0,,,20281942,,
+RNEW.L,0.246,0.224,0.268,,,33967188,,
+SDV.L,144.0,141.0,144.0,,,32176798,,
+HGEN.L,28.311,28.3,29.4,65.0,1,36470232,,
+BRIG.L,203.0,200.0,206.0,,,39487156,,
+VSL.L,14.65,14.3,14.75,,,40767432,,
+RCOI.L,0.7575,0.75,0.77,,,51628928,,
+NAS.L,392.85,390.6,396.95,,,51805916,,
+SBO.L,71.0,70.0,72.0,,,52469004,,
+AIRE.L,75.9,74.0,77.0,,,61099500,,
+MIG1.L,36.0,35.0,37.0,,,65318760,,
+SBSI.L,77.2,77.0,79.0,,,62835312,,
 MIG3.L,46.4,45.4,47.4,,,64447288,,
-RMII.L,70.5,69,70.5,,,67670600,,
-MIGO.L,370.5,369,374,,,71644936,,
-BEMO.L,674.6,645.0,660.0,,,76917952,,
-NSI.L,116,107,116,,,76705592,,
-VIP.L,202.76,198,205,215.00002,1,84576368,,
-MAV4.L,55,54,56,,,85462856,,
-JEMA.L,229,220.0,231.0,,,90887120,,
-SERE.L,69.2,69.2,70.2,81.65372,1,92864336,,
-BRLA.L,353,352,356,,,104598744,,
-RIII.L,2188.5,2150,2200,,,106222240,,
-BRAI.L,195.5,194.5,195.5,,,110821712,,
-RESI.L,60.2,59,60.2,,,108591808,,
-SHRS.L,288.217,288,289,,,113458256,,
-AFL.L,383.8,374.0,379.0,,,115950912,,
-USF.L,0.38916,0.404,0.42,,,118207872,,
-INOV.L,15.228,14.7,15.3,,,122249664,,
-MTU.L,103.5211,103,103.5,,,134926752,,
-CYN.L,206,204.0,207.0,,,134712128,,
-MAJE.L,253.958,240.0,248.0,,,131437024,,
-BERI.L,115,114.5,115.5,,,136239168,,
-ADIG.L,45.665,45.2,46.2,,,144112336,,
-AGVI.L,86.817,83.5,87,,,143836032,,
-CMPI.L,110.45,111,115,,,148646800,,
-BGCG.L,244.996,243,247,,,146020832,,
-BASC.L,1275,1255.0,1265.0,,,146303728,,
-CMPG.L,262.152,262,266,,,153260368,,
-LABS.L,45.6,45,45.6,37,1,155137504,,
-MMIT.L,136,134.5,138,,,157663728,,
-SEC.L,368.473,367,369,,,164001440,,
-LTI.L,834,820,854,,,166000000,,
-AUGM.L,100.425,99,100.5,139,1,167365408,,
-BSC.L,51,51.0,53.0,,,171997792,,
-MGCI.L,95.94,95.8,96.4,,,169640064,,
-AEWU.L,110.0401,110,110.6,109,1,172683248,,
-AEI.L,357,352.0,355.0,,,171492448,,
-DORE.L,101.2495,101,101.5,,,172337312,,
-AI.MC,0.1192,0.1182,0.1186,,,185456128,,
-BIOG.L,716.8,710,718,,,192153872,,
-JCGI.L,234.2931,232.5,235,,,196070864,,
-FRGT.L,344.06,341.0,342.0,,,199893120,,
-IBT.L,586.8,592.0,598.0,,,209429280,,
-SSIT.L,86.136,86,86.6,,,204733808,,
+RMII.L,67.551,67.5,68.5,,,66733096,,
+MIGO.L,372.54,372.0,374.0,,,71365256,,
+BEMO.L,670.0,660.0,670.0,,,79652280,,
+NSI.L,108.0,106.0,116.0,,,76705592,,
+VIP.L,201.31,196.0,205.0,215.00002,1,84576368,,
+MAV4.L,55.0,54.0,56.0,,,85462856,,
+JEMA.L,224.2966,222.0,228.0,,,90889472,,
+SERE.L,69.0,68.2,69.4,82.1399,1,92864336,,
+BRLA.L,355.1909,351.0,361.0,,,104598744,,
+RIII.L,2180.0,2180.0,2220.0,,,106222240,,
+BRAI.L,196.0,194.0,197.0,,,110963240,,
+RESI.L,59.4,59.0,59.4,,,109986824,,
+SHRS.L,284.51,281.0,285.0,,,114419392,,
+AFL.L,381.7001,381.0,382.0,,,115935304,,
+USF.L,0.384,0.384,0.408,,,118207872,,
+INOV.L,15.125,14.9,15.85,,,122298176,,
+MTU.L,103.0248,102.0,104.0,,,133786984,,
+CYN.L,208.7,207.0,210.0,,,133897328,,
+MAJE.L,248.0,244.0,248.0,,,131437024,,
+BERI.L,116.65,116.5,118.0,,,135773600,,
+ADIG.L,46.985,45.5,47.0,,,144066352,,
+AGVI.L,86.781,83.0,87.0,,,143836032,,
+CMPI.L,110.5,111.0,115.0,,,144412448,,
+BGCG.L,244.15,243.0,247.0,,,145573696,,
+BASC.L,1272.5,1280.0,1290.0,,,146880864,,
+CMPG.L,265.0,262,266,,,153260368,,
+LABS.L,44.325,43.9,45.6,37.0,1,155137504,,
+MMIT.L,138.0,136.0,138.5,,,159279600,,
+SEC.L,367.5201,367.0,369.0,,,164001440,,
+LTI.L,830.0,832.0,858.0,,,166000000,,
+AUGM.L,99.94,99.2,100.0,139.0,1,168190032,,
+BSC.L,52.0,51.0,53.0,,,171997792,,
+MGCI.L,96.035,96.0,96.4,,,169640064,,
+AEWU.L,108.7244,108.2,108.8,109.0,1,172246624,,
+AEI.L,358.0,354.0,358.0,,,171684272,,
+DORE.L,101.31,101.0,102.0,,,172352608,,
+AI.MC,0.1186,0.1182,0.1188,,,184522624,,
+BIOG.L,730.364,730.0,734.0,,,191202000,,
+JCGI.L,233.0,233.0,234.0,,,195316448,,
+FRGT.L,346.026,344.0,348.0,,,199790912,,
+IBT.L,599.24,596.0,602.0,,,209336704,,
+SSIT.L,84.868,84.4,85.6,,,202983040,,
 BVT.L,49.45,46.8,48.8,,,207101056,,
-SCF.L,310.6,304.0,308.0,,,213550640,,
-OIT.L,160.5,159.5,161.5,,,212970960,,
-FJV.L,190.01,188,191,,,216670272,,
-EGL.L,211.86,210,213,,,224181520,,
-IGET.L,360.3,351.0,356.0,,,231036800,,
-JUSC.L,388.5396,379.0,381.0,,,233353488,,
-BBH.L,118.2,118.2,118.6,,,230841072,,
-AJOT.L,171.5,171.5,173.5,,,234320544,,
-SCP.L,684,664.0,668.0,,,236985856,,
-AERI.L,0.626,0.626,0.628,0.8,1,235948128,,
-DIVI.L,104.45,104,104.5,,,247267056,,
-BGUK.L,197.175,196.5,197.5,,,254123008,,
-IIG.L,120,118,124,127.5,1,254271040,,
-ASLI.L,61.8856,61.2,61.7,,,256208368,,
-BOOK.L,436,426,446,,,267778752,,
-CCJI.L,194.5,187.0,189.0,,,258851936,,
-BSV.L,75,75.0,78.0,,,266983488,,
-JAGI.L,377.5625,376.5,377.0,,,268275248,,
-AAEV.L,112,107.0,112.0,,,262428800,,
-SOHO.L,71.448,71.5,71.8,57,1,280363392,,
-MTE.L,175.5,171.0,172.0,,,287657632,,
-STS.L,239.8438,237.0,241.0,,,287896256,,
-ARR.L,255.686,255.0,257.0,,,291887328,,
-ENRG.L,73.08,72.6,74.2,74.5,2,291287264,,
-BRFI.L,157.519,148.5,153.5,,,298715744,,
-SJG.L,257.404,251.0,253.0,,,300380608,,
-HHI.L,179.905,178.5,182,,,310684928,,
-MNL.L,784.9,758.0,790.0,,,309787776,,
-MWY.L,749,748,752,,,309872672,,
-GSF.L,65,65,65.2,89,3,326536416,,
-BGS.L,122.8,122.6,123,,,326348096,,
-CTUK.L,334.136,328.0,330.0,,,326530208,,
-AUSC.L,519,519,521,,,328312416,,
-LWI.L,146.5,145.5,146.0,,,335732832,,
-EAT.L,92.9102,92.8,93,,,335228544,,
-SST.L,290.06,294.0,304.0,,,340029760,,
-BGEU.L,101.84,101.5,102,,,347170784,,
-CTPE.L,486,475,487,,,343484960,,
-FAS.L,535,530,536,,,360194752,,
-CREI.L,81.9,81.7,82,,,383081472,,
-NAVF.L,201.5,201,202,,,383958272,,
-ANII.L,821.4,814.0,820.0,,,387505696,,
-DIG.L,299,297.0,299.0,,,387711072,,
-JEMI.L,145.947,145.0,145.5,,,399721664,,
-NAIT.L,327.8,323.0,324.0,,,401536096,,
-PCGH.L,328.89,327.0,331.0,,,399402752,,
-ORIT.L,73.715,73.7,74,100,2,404790816,,
-PAC.L,346.8324,340.0,342.0,,,413896064,,
-JCH.L,781.3005,780.0,782.0,,,430423616,,
-CGI.L,2100,2040,2110,,,438083104,,
-JUGI.L,338.587,328.0,331.0,,,436878656,,
-ATR.L,467.9,456.0,462.0,,,441467712,,
-GRID.L,78.3803,78.2,78.5,92.333,3,462077696,,
-THRG.L,590.1501,590,591,,,455294080,,
-AIE.L,280.5,277.5,278.5,,,475647072,,
-PINT.L,101.918,105.5,106.0,122.5,2,477997504,,
-WHR.L,114.2,114,114.2,,,478100320,,
-AAS.L,324.32,323,325,,,482565216,,
-JEGI.L,121.5,121,122,,,514554560,,
-PHI.L,611.15,599.0,607.0,,,536619488,,
-JEDT.L,568,568,569,,,540802688,,
-BRSC.L,1306,1282.0,1286.0,,,556233344,,
-GROW.L,310.8,310.2,311.6,557.2,5,576572800,,
-BRGE.L,592.1042,591,593,,,569223616,,
-EOT.L,925,896.0,898.0,,,575466560,,
-HSL.L,864.8417,862,870,,,586237120,,
-PRSR.L,107.4,107.2,107.4,111,2,583304576,,
-ESCT.L,209.95,200.0,201.5,,,587485184,,
-SEIT.L,55.824,55.3,55.8,89.5,2,617799360,,
-BUT.L,1420,1410,1422,,,609740672,,
-HET.L,202.144,201.5,202.5,,,629418752,,
-EWI.L,176,175.2,176,,,642451072,,
-BGFD.L,800.88,800,802,,,633557760,,
-THRL.L,101.9598,101.8,102.2,105.66699,3,632651968,,
-PCFT.L,208.5,208.5,209,,,632211648,,
-SOI.L,287.5,287.5,288.5,,,669368960,,
-USA.L,248.1143,247.5,248.5,,,708581888,,
-JII.L,1076,1076,1080,,,710111616,,
-IAD.L,349,347.0,348.0,,,720793856,,
-GSCT.L,161.6,160.0,160.6,,,723800960,,
-SDP.L,560,559,561,,,780378048,,
-IEM.L,375.55,369.0,369.5,,,793465088,,
-PPET.L,554.6337,552,558,580,1,833606528,,
-MUT.L,852.08,851,855,,,852721856,,
-MRCH.L,568,567,569,,,845280320,,
-CGT.L,4781.973,4780,4785,,,845084160,,
-GRP.L,0.78,0.78,0.79,,,870075200,,
-ICGT.L,1380,1380.0,1386.0,1542.5,2,871986624,,
-SAIN.L,510,509,511,,,886160192,,
-TMPL.L,322.5,321.5,323,,,920055296,,
-BPCR.L,0.88959,0.882,0.89,,,1009727104,,
-BRWM.L,536.046,516.0,518.0,,,1021284288,,
-AGT.L,241.2,240.5,241.5,,,1028718528,,
-JFJ.L,641.09,640,642,,,1044685568,,
-TRY.L,332.5,331.5,332.5,,,1057366912,,
-SUPR.L,84.9,84.9,85.1,82.8,5,1058092096,,
+SCF.L,310.3313,309.0,311.0,,,213091472,,
+OIT.L,159.637,159.0,162.5,,,213824192,,
+FJV.L,191.0,189.5,192.5,,,217124992,,
+EGL.L,214.7735,212.0,214.0,,,227114400,,
+IGET.L,364.28,361.0,365.0,,,231114528,,
+JUSC.L,394.5,394.0,395.0,,,233400784,,
+BBH.L,119.624,119.6,120.0,,,232464112,,
+AJOT.L,173.0,172.5,173.0,,,234999744,,
+SCP.L,685.7707,678.0,686.0,,,237044864,,
+AERI.L,0.624,0.62,0.636,0.8,1,235948128,,
+DIVI.L,104.894,104.0,105.0,,,247962048,,
+BGUK.L,198.0,198.0,199.0,,,252846000,,
+IIG.L,122.75,118.0,124.0,127.5,1,257183360,,
+ASLI.L,61.8863,61.7,62.3,,,258065248,,
+BOOK.L,433.6,426.0,446.0,,,260918800,,
+CCJI.L,194.0,192.5,195.0,,,261378144,,
+BSV.L,75.0,75.0,78.0,,,266983488,,
+JAGI.L,381.1815,380.0,382.5,,,268678048,,
+AAEV.L,112.0,107.0,112.0,,,268420304,,
+SOHO.L,71.04,71.0,71.4,57.0,1,279518240,,
+MTE.L,176.9356,177.0,177.5,,,286846208,,
+STS.L,242.7,239.0,243.0,,,290791008,,
+ARR.L,254.0,254.0,255.0,,,291015424,,
+ENRG.L,72.958,72.6,74.0,74.5,2,288769952,,
+BRFI.L,157.92,157.5,158.5,,,298895168,,
+SJG.L,257.989,257.0,258.0,,,300562368,,
+HHI.L,178.52,178.0,181.0,,,304744352,,
+MNL.L,793.5,790.0,804.0,,,309979200,,
+MWY.L,752.352,750.0,754.0,,,310152608,,
+GSF.L,64.388,64.2,64.6,89.0,3,325223168,,
+BGS.L,124.6,124.0,124.6,,,328372096,,
+CTUK.L,331.5,330.0,334.0,,,324665472,,
+AUSC.L,522.0,522.0,523.0,,,328312416,,
+LWI.L,145.8315,145.5,146.5,,,335345344,,
+EAT.L,93.1,92.8,93.8,,,335224224,,
+SST.L,292.06,292.0,296.0,,,340048384,,
+BGEU.L,102.501,102.0,103.0,,,345488832,,
+CTPE.L,479.342,474.0,480.0,,,343480704,,
+FAS.L,540.0,536.0,540.0,,,362875168,,
+CREI.L,82.374,82.3,82.7,,,382033312,,
+NAVF.L,203.5,203.0,204.0,,,384904000,,
+ANII.L,817.6,816.0,832.0,,,380798816,,
+DIG.L,301.0,299.0,301.0,,,386429824,,
+JEMI.L,146.49,146.0,147.0,,,398361984,,
+NAIT.L,331.2605,331.0,332.0,,,401852128,,
+PCGH.L,329.0632,328.0,331.0,,,399054944,,
+ORIT.L,73.506,73.5,74.0,100.0,2,403178208,,
+PAC.L,350.313,349.0,355.0,,,415096384,,
+JCH.L,776.96,776.0,780.0,,,429272768,,
+CGI.L,2100.0,2040.0,2100.0,,,438083104,,
+JUGI.L,331.6517,331.0,334.0,,,433807072,,
+ATR.L,471.431,465.0,474.0,,,444704192,,
+GRID.L,81.3497,81.2,81.5,92.333,3,462931840,,
+THRG.L,589.1,589.0,590.0,,,455709440,,
+AIE.L,281.205,280.0,281.5,,,475987264,,
+PINT.L,102.0,101.5,102.5,122.5,2,477997504,,
+WHR.L,112.59,112.4,112.6,,,478350976,,
+AAS.L,324.15,323.0,325.0,,,484283296,,
+JEGI.L,121.5,121.5,122.5,,,512445728,,
+PHI.L,613.3475,612.0,615.0,,,535177600,,
+JEDT.L,564.0,564.0,565.0,,,540802688,,
+BRSC.L,1306.96,1304.0,1308.0,,,556932224,,
+GROW.L,319.254,319.0,319.8,557.2,5,575228672,,
+BRGE.L,593.0,591.0,593.0,,,568198912,,
+EOT.L,924.4226,921.0,927.0,,,575107328,,
+HSL.L,860.25,860.0,863.0,,,586237120,,
+PRSR.L,106.8,106.6,107.0,111.0,2,586600064,,
+ESCT.L,210.776,210.5,211.0,,,586861504,,
+SEIT.L,57.1162,56.7,57.0,89.5,2,619950656,,
+BUT.L,1418.8,1408.0,1426.0,,,613598400,,
+HET.L,203.125,203.0,203.5,,,627875648,,
+EWI.L,176.6839,176.2,177.8,,,640272448,,
+BGFD.L,807.3652,805.0,807.0,,,634882880,,
+THRL.L,102.6002,102.4,102.8,105.66699,3,638875008,,
+PCFT.L,208.95,208.0,209.0,,,633576128,,
+SOI.L,290.5,289.5,291.0,,,668603200,,
+USA.L,249.9,249.5,250.5,,,708598912,,
+JII.L,1082.578,1084.0,1086.0,,,710111616,,
+IAD.L,353.0,351.0,353.0,,,721366080,,
+GSCT.L,162.6,160.4,162.4,,,723800960,,
+SDP.L,564.0,563.0,565.0,,,778996800,,
+IEM.L,378.951,378.5,379.5,,,791689216,,
+PPET.L,552.5,552.0,558.0,580.0,1,829860480,,
+MUT.L,873.9759,871.0,874.0,,,856618752,,
+MRCH.L,568.333,567.0,569.0,,,843548160,,
+CGT.L,4799.0,4780.0,4805.0,,,844028864,,
+GRP.L,0.786,0.78,0.786,,,875085312,,
+ICGT.L,1386.0,1376.0,1386.0,1542.5,2,878004608,,
+SAIN.L,512.283,511.0,514.0,,,884620544,,
+TMPL.L,322.55,322.0,323.0,,,917990208,,
+BPCR.L,0.882,0.882,0.89,,,1002904640,,
+BRWM.L,545.16,544.0,546.0,,,1021537152,,
+AGT.L,242.354,242.0,243.0,,,1030414080,,
+JFJ.L,639.0,639.0,641.0,,,1040355904,,
+TRY.L,332.831,332.5,333.5,,,1056242496,,
+SUPR.L,84.6265,84.5,84.7,82.8,5,1055927168,,
 TFGS.L,1170.0,1140.0,1200.0,,,1040863616,,
-VEIL.L,609,609,610,,,1114685440,,
-EDIN.L,797,792.0,794.0,,,1147899648,,
-HRI.L,2300,2255.0,2275.0,,,1156203392,,
-FSV.L,368.5,368.5,369,,,1187743872,,
-JMG.L,116,115.6,116,,,1192738304,,
-ASL.L,1537.56,1510.0,1514.0,,,1255803648,,
-FCSS.L,253.3049,247.0,248.0,,,1281928832,,
-BNKR.L,120.4,120.4,120.6,,,1279487872,,
-FGT.L,897,898.0,899.0,,,1308522368,,
-LWDB.L,998,998,999,,,1330468224,,
-PIN.L,315.6945,315.5,316,395,2,1404386176,,
-WWH.L,300.5,300,300.5,,,1453040896,,
-IMC.MC,3.41,3.41,3.42,,,1550042880,,
-ATT.L,419.37,418.5,420,,,1591718656,,
-PNL.L,509,508,509,,,1616939776,,
-FEV.L,406,406,406.5,,,1671093632,,
-MYI.L,280.6149,273.5,274.5,,,1662581504,,
-SSON.L,1508,1508,1512,,,1796367488,,
-MRC.L,251,251,251.5,,,1827460992,,
-JAM.L,1025.6,1024,1026,,,1832887552,,
-TEM.L,188,187.8,188.2,,,1929753344,,
-CLDN.L,3700.2,3675,3715,3540.0002,1,1930108416,,
-HICL.L,117,117.2,117.4,151.66699,3,2306092032,,
-HGT.L,508.5039,508,509,545,2,2307041280,,
-CTY.L,487.5,484.0,485.5,,,2406661888,,
-MNKS.L,1294.668,1274.0,1276.0,,,2417532672,,
-PHLL.L,226.5,225,226,277.088,8,2477115904,,
-UKW.L,121,121.3,121.5,155,3,2719035648,,
-RCP.L,1947.8687,1948,1950,,,2734465792,,
+VEIL.L,615.753,615.0,618.0,,,1109734656,,
+EDIN.L,795.75,795.0,797.0,,,1144654592,,
+HRI.L,2304.2637,2295.0,2315.0,,,1153857664,,
+FSV.L,367.9,367.5,368.5,,,1188497280,,
+JMG.L,116.7306,116.6,116.8,,,1192029568,,
+ASL.L,1534.0,1530.0,1534.0,,,1255887232,,
+FCSS.L,254.5,254.5,255.5,,,1269458688,,
+BNKR.L,121.446,121.2,121.6,,,1277466240,,
+FGT.L,901.0,901.0,903.0,,,1303972224,,
+LWDB.L,994.0,994.0,998.0,,,1323809152,,
+PIN.L,313.0,313.0,313.5,395.0,2,1399842432,,
+WWH.L,300.0,299.5,300.5,,,1450020096,,
+IMC.MC,3.42,3.41,3.42,,,1554588416,,
+ATT.L,425.066,424.5,426.0,,,1592156928,,
+PNL.L,510.825,510.0,512.0,,,1619555456,,
+FEV.L,409.5,409.0,409.5,,,1671706112,,
+MYI.L,280.7774,280.0,281.0,,,1664243456,,
+SSON.L,1512.0,1512.0,1514.0,,,1797556352,,
+MRC.L,249.25,249.0,250.0,,,1816529024,,
+JAM.L,1029.8978,1028.0,1032.0,,,1831446784,,
+TEM.L,190.0,189.6,190.2,,,1923275008,,
+CLDN.L,3677.54,3675.0,3685.0,3540.0002,1,1930793088,,
+HICL.L,117.8396,117.6,118.0,151.66699,3,2311576832,,
+HGT.L,501.67,499.5,503.0,545.0,2,2305524736,,
+CTY.L,487.5,487.0,487.5,,,2403214080,,
+MNKS.L,1299.6901,1298.0,1300.0,,,2416136704,,
+PHLL.L,228.0,228.0,228.5,277.088,8,2466298880,,
+UKW.L,121.6,121.6,121.9,155.0,3,2705685248,,
+RCP.L,1953.715,1952.0,1958.0,,,2729808640,,
 SYAB.VI,12.9,12.8,12.98,,,2835097600,,
-JGGI.L,548,546,548,,,3202489344,,
-BBOX.L,146.1,146.1,146.3,172.364,11,3589543680,,
-SPG.DE,19.08,19.04,19.14,27.21429,7,3794801920,,
-TEMN.SW,58.65,58.55,58.65,66.53458,16,4146831104,,
-PCT.L,363.2366,362.5,363.5,,,4246902784,,
-ALW.L,1228.8518,1228,1230,,,4905323520,,
-FCIT.L,1112.1051,1097.0,1098.0,,,5385292288,,
-SMT.L,1024.843,1024.5,1025.5,,,12135501824,,
-LIN.DE,405.0,405.0,405.2,458.75,2,194399993856,,
+JGGI.L,550.0,548.0,550.0,,,3196677120,,
+BBOX.L,144.5,144.3,144.5,172.364,11,3584582656,,
+SPG.DE,19.02,19.0,19.08,27.21429,7,3782868736,,
+TEMN.SW,58.15,58.1,58.2,66.50856,16,4111478528,,
+PCT.L,364.489,364.0,365.0,,,4241084928,,
+ALW.L,1237.2068,1236.0,1238.0,,,4906143744,,
+FCIT.L,1116.4805,1116.0,1117.0,,,5379704832,,
+SMT.L,1027.0,1026.5,1027.5,,,12135442432,,
+LIN.DE,405.2,405.2,405.6,458.75,2,190737367040,,
