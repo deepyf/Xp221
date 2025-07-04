@@ -1,2 +1,2 @@
-yfinance
-curl_cffi
+yfinance>=0.2.45
+curl-cffi

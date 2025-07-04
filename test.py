@@ -2,85 +2,88 @@ import csv
 import time
 import random
 import yfinance as yf
-from curl_cffi.requests import Session
+from curl_cffi import requests
 
-ua_list = [
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0',
-    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36'
-]
+def rotate_user_agent():
+    agents = [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0"
+    ]
+    return {'User-Agent': random.choice(agents)}
 
-def fetch_data(symbol, attempt):
-    session = Session()
-    session.headers = {'User-Agent': random.choice(ua_list)}
-    ticker = yf.Ticker(symbol, session=session)
+def fetch_data(symbol):
     try:
+        headers = rotate_user_agent()
+        session = requests.Session(impersonate="chrome")
+        session.headers.update(headers)
+        ticker = yf.Ticker(symbol, session=session)
         info = ticker.info
         return {
             'currentPrice': info.get('currentPrice', ''),
-            'lastPrice': info.get('previousClose', ''),
+            'lastPrice': info.get('lastPrice', ''),
             'targetMeanPrice': info.get('targetMeanPrice', ''),
             'numberOfAnalystOpinions': info.get('numberOfAnalystOpinions', ''),
             'marketCap': info.get('marketCap', ''),
             'industry': info.get('industry', ''),
             'sector': info.get('sector', '')
         }
-    except:
+    except Exception:
         return None
 
-def process_row(row):
-    attempt = 1
-    while attempt <= 4:
-        data = fetch_data(row['T'], attempt)
-        if data:
-            return data
-        sleep_time = random.uniform(2 + 2*(attempt-1), 2.5 + 2*(attempt-1))
-        time.sleep(sleep_time)
-        attempt += 1
-    return {}
-
 def main():
+    last_call_time = 0
     with open('data.csv', 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
-        todo_rows = []
-        clean_rows = []
-        fieldnames = reader.fieldnames
-        
-        for row in reader:
-            data = process_row(row)
-            
-            if data.get('currentPrice', '') != '':
-                row['P'] = data['currentPrice']
-            if data.get('lastPrice', '') != '':
-                row['PL'] = data['lastPrice']
-            if data.get('targetMeanPrice', '') != '':
-                row['M'] = data['targetMeanPrice']
-            if data.get('numberOfAnalystOpinions', '') != '':
-                row['O'] = data['numberOfAnalystOpinions']
-            if data.get('marketCap', '') != '':
-                row['C'] = data['marketCap']
-            if data.get('industry', '') != '':
-                row['I'] = data['industry']
-            if data.get('sector', '') != '':
-                row['S'] = data['sector']
-            
-            if '' in [row.get('P', ''), row.get('PL', ''), row.get('C', ''), row.get('I', ''), row.get('S', '')]:
-                todo_rows.append(row)
-            else:
-                clean_rows.append(row)
-            
-            time.sleep(random.uniform(2, 2.5))
-        
-        with open('todo.csv', 'w', encoding='utf-8', newline='') as todo_file:
-            writer = csv.DictWriter(todo_file, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(todo_rows)
-        
-        with open('yahooClean.csv', 'w', encoding='utf-8', newline='') as clean_file:
-            writer = csv.DictWriter(clean_file, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(clean_rows)
+        rows = list(reader)
+    
+    clean_rows = []
+    unclean_rows = []
+    fieldnames = ['T', 'P', 'PL', 'B', 'A', 'M', 'O', 'C', 'I', 'S']
 
-if __name__ == "__main__":
+    for row in rows:
+        data = None
+        for attempt in range(1, 5):
+            required_delay = 2 * attempt + random.uniform(0, 0.5)
+            now = time.time()
+            time_to_wait = max(0, last_call_time + required_delay - now)
+            time.sleep(time_to_wait)
+            
+            start_time = time.time()
+            data = fetch_data(row['T'])
+            last_call_time = start_time
+            
+            if data is not None:
+                if data['currentPrice'] != '':
+                    row['P'] = str(data['currentPrice'])
+                if data['lastPrice'] != '':
+                    row['PL'] = str(data['lastPrice'])
+                if data['targetMeanPrice'] != '':
+                    row['M'] = str(data['targetMeanPrice'])
+                if data['numberOfAnalystOpinions'] != '':
+                    row['O'] = str(data['numberOfAnalystOpinions'])
+                if data['marketCap'] != '':
+                    row['C'] = str(data['marketCap'])
+                if data['industry'] != '':
+                    row['I'] = data['industry']
+                if data['sector'] != '':
+                    row['S'] = data['sector']
+                break
+
+        if any(row[field] == '' for field in ['P', 'PL', 'C', 'I', 'S']):
+            unclean_rows.append(row)
+        else:
+            clean_rows.append(row)
+
+    with open('yahooClean.csv', 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(clean_rows)
+    
+    with open('todo.csv', 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(unclean_rows)
+
+if __name__ == '__main__':
     main()
