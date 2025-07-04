@@ -2,8 +2,7 @@ import csv
 import time
 import random
 import yfinance as yf
-import pandas as pd
-import requests
+from curl_cffi.requests import Session
 
 ua_list = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
@@ -13,8 +12,8 @@ ua_list = [
 ]
 
 def fetch_data(symbol, attempt):
-    session = requests.Session()
-    session.headers.update({'User-Agent': random.choice(ua_list)})
+    session = Session()
+    session.headers = {'User-Agent': random.choice(ua_list)}
     ticker = yf.Ticker(symbol, session=session)
     try:
         info = ticker.info
@@ -66,7 +65,7 @@ def main():
             if data.get('sector', '') != '':
                 row['S'] = data['sector']
             
-            if '' in [row['P'], row['PL'], row['C'], row['I'], row['S']]:
+            if '' in [row.get('P', ''), row.get('PL', ''), row.get('C', ''), row.get('I', ''), row.get('S', '')]:
                 todo_rows.append(row)
             else:
                 clean_rows.append(row)
